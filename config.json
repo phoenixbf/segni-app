@@ -1,0 +1,30 @@
+{
+    "network":[
+        {
+            "name": "41",
+            "pos": [-273.40, 549.51, -408.76],
+            "semlist":["P411","P412"]
+        },
+        {
+            "name": "42",
+            "pos": [-272.06, 549.20, -410.83],
+            "semlist":["P411","P412"]
+        }
+    ],
+
+    "sem":{
+        "P411":{
+            "title": "Epigrafe",
+            "descr": "Lorem Ipsum",
+            "cover": "11.jpg",
+            "audio": "p11.mp3"
+        },
+        "P412":{
+            "title": "Epigrafe",
+            "descr": "Lorem Ipsum",
+            "cover": "11.jpg",
+            "audio": "p11.mp3"
+        }        
+    }
+
+}
