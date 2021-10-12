@@ -435,6 +435,8 @@ APP.buildSlider = (id)=>{
 
 
 APP.buildSUI = ()=>{
+    ATON.SUI.bShowInfo = false;
+
     let telSize = 0.1; //1.5;
 
     APP.matTelep = new THREE.SpriteMaterial({ 
