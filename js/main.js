@@ -36,7 +36,6 @@ APP._bAudio = false;
 
 
 
-
 APP.init = ()=>{
     // Realize the base front-end
     ATON.FE.realize();
@@ -55,31 +54,21 @@ APP.init = ()=>{
     //ATON.Nav.setHomePOV( new ATON.POV().setPosition(0,0,0).setTarget(0,0,-1).setFOV(APP.FOV_STD) );
 
     ATON.FE.uiAddButtonFullScreen("idTopToolbar");
-    $("#idTopToolbar").append("<div id='idbtn-switch' class='atonBTN' style='width:100px;'>PAST</div>");
+    
+    $("#idTopToolbar").append( APP.buildSlider("idSlider") );
     //ATON.FE.uiAddButtonDeviceOrientation("idTopToolbar");
 
     ATON.Nav.setFirstPersonControl();
     ATON.Nav.setFOV(APP.FOV_STD);
 
-    $("#idbtn-switch").click(()=>{
-        if (APP.currperiod === APP.P_PAST){
-            console.log("Switching to modern");
+    $("#idSlider").on("input change",()=>{
+        let v = parseInt( $("#idSlider").val() );
 
-            APP.currperiod = APP.P_MODERN;
+        if (APP.currperiod !== v){
+            console.log("Switching to: "+v);
+
+            APP.currperiod = v;
             APP.loadPanorama();
-
-            $("#idbtn-switch").html("PAST");
-            return;
-        }
-
-        if (APP.currperiod === APP.P_MODERN){
-            console.log("Switching to past");
-
-            APP.currperiod = APP.P_PAST;
-            APP.loadPanorama();
-
-            $("#idbtn-switch").html("TODAY");
-            return;
         }
     });
 
@@ -215,7 +204,7 @@ APP.moveTo = (i)=>{
     ATON.Nav.requestPOV(P, 0.5);
     APP._bFirstPOV = true;
 
-    ATON.AudioHub.playOnceGlobally(APP.audioDir + "teleport.wav");
+    //ATON.AudioHub.playOnceGlobally(APP.audioDir + "teleport.wav");
 
     //ATON.setMainPanoramaLocation( new THREE.Vector3(pos[0],pos[1],pos[2]));
 
@@ -433,9 +422,20 @@ APP.setupEvents = ()=>{
     });
 };
 
+// Switch / Slider
+APP.buildSlider = (id)=>{
+    let ht = "<div class='appSlider'>";
+    ht += "Attuale&nbsp;";
+    ht += "<input id='"+id+"' type='range' min='0' max='1' value='0' style='width:100px'>";
+    ht += "&nbsp;Passato";
+    ht += "</div>";
+
+    return ht;
+};
+
 
 APP.buildSUI = ()=>{
-    let telSize = 0.8; //1.5;
+    let telSize = 0.1; //1.5;
 
     APP.matTelep = new THREE.SpriteMaterial({ 
         map: new THREE.TextureLoader().load( APP.contentDir+"ui/teleport.png" ),
@@ -444,6 +444,8 @@ APP.buildSUI = ()=>{
         depthWrite: false, 
         depthTest: false
     });
+
+    APP.matTelep.sizeAttenuation = false;
 
     APP.suiTelep = new THREE.Sprite( APP.matTelep );
     APP.suiTelep.scale.set(telSize,telSize,1);
