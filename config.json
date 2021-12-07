@@ -28,7 +28,8 @@
             ],
             "semlist": [
                 "UN_int.basilica_1",
-                "UN_volouccello_2"
+                "UN_int.basilica_2",
+                "UN_int.basilica_4"
             ]
         },
         {
@@ -43,7 +44,11 @@
                 4.65230131149292,
                 -0.06619204580783844
             ],
-            "semlist": []
+            "semlist": [
+                "UN_int.basilica_1",
+                "UN_int.basilica_2",
+                "UN_int.basilica_4"
+            ]
         },
         {
             "name": "Acropoli_SPietro_10",
@@ -57,7 +62,11 @@
                 1.6396034955978394,
                 -3.27780818939209
             ],
-            "semlist": []
+            "semlist": [
+                "UN_est.basilica_1",
+                "UN_est.basilica_2",
+                "UN_int.basilica_3"
+            ]
         },
         {
             "name": "Acropoli_SPietro_11",
