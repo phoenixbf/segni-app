@@ -115,7 +115,7 @@
         "UN_volouccello_1": {
             "titolo": "Benvenuti",
             "title": "Welcome",
-            "descrITA": "Benvenuti a Segni, citt\u00e0 a sud di Roma, posizionata sul versante occidentale dei Monti Lepini, in posizione dominante rispetto alla valle del Sacco e con una lunga e incredibile storia. Grazie alle nuove tecnologie, vi racconteremo principali monumenti di Segni facendovi fare un viaggio nel tempo a portata di un click.",
+            "descr": "Benvenuti a Segni, citt\u00e0 a sud di Roma, posizionata sul versante occidentale dei Monti Lepini, in posizione dominante rispetto alla valle del Sacco e con una lunga e incredibile storia. Grazie alle nuove tecnologie, vi racconteremo principali monumenti di Segni facendovi fare un viaggio nel tempo a portata di un click.",
             "descrENG": "Welcome to Segni, a city south of Rome, located on the western side of the Lepini Mountains, in a dominant position with respect to the Sacco valley and with a long and incredible history. Thanks to new technologies, we will tell you about the main monuments of Segni, making you take a trip back in time at the click of a button.",
             "cover": "immagine.jpg",
             "audio": "p11.mp3"
