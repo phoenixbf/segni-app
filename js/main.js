@@ -92,7 +92,6 @@ APP.init = ()=>{
     // update routine
     //ATON.addUpdateRoutine( APP.update );
 
-
     // XPF
     let rf = ATON.device.isMobile? "-4k-" : "-8k-";
 
@@ -114,7 +113,11 @@ APP.switchToPeriod = (pname)=>{
 
 // Update
 APP.update = ()=>{
-    //APP.handleNextPanoSelection();
+/*
+    if (ATON.XPFNetwork._iNext !== undefined){
+        APP.suiLabel.orientToCamera();
+    }
+*/
 
     //if (ATON._queryDataSem) console.log(ATON._queryDataSem);
     //if (ATON._queryDataUI)  console.log(ATON._queryDataUI);
@@ -317,7 +320,7 @@ APP.setupEvents = ()=>{
     ATON.on("NextXPF", i =>{
         // No next XPF detected, hide the indicator 
         if (i === undefined){
-            APP.suiTelep.visible = false;
+            APP.suiIndicator.hide();
             return;
         }
         // Next XPF detected, show indicator and update its location
@@ -325,8 +328,13 @@ APP.setupEvents = ()=>{
 
         console.log( APP.conf.network[i].name )
 
-        APP.suiTelep.visible = true;
-        APP.suiTelep.position.copy( xpf.getLocation() );
+        APP.suiIndicator.show();
+        APP.suiIndicator.position.copy( xpf.getLocation() );
+
+        if (APP.conf.network[i].name){
+            APP.suiLabel.setText( APP.conf.network[i].name );
+            APP.suiLabel.lookAt( ATON.Nav.getCurrentEyeLocation() );
+        }
     });
 
     ATON.on("CurrentXPF", i => {
@@ -341,7 +349,7 @@ APP.setupEvents = ()=>{
 
     // When we request a locomotion node transition, hide indicator
     ATON.on("LocomotionNodeRequested", locnode => {
-        APP.suiTelep.visible = false;
+        APP.suiIndicator.hide();
     });
 
 /*
@@ -408,9 +416,17 @@ APP.buildSUI = ()=>{
     //APP.matTelep.sizeAttenuation = false;
 
     APP.suiTelep = new THREE.Sprite( APP.matTelep );
-    APP.suiTelep.scale.set(iconsize,iconsize,iconsize);
 
-    ATON.getRootUI().add( APP.suiTelep );
+    APP.suiIndicator = ATON.createUINode();
+    APP.suiIndicator.scale.set(iconsize,iconsize,iconsize);
+    APP.suiIndicator.add( APP.suiTelep );
+
+    APP.suiLabel = new ATON.SUI.Label(undefined, 0.5,0.1);
+    APP.suiLabel.setScale(iconsize*8.0).setPosition(0.0,0.7,0.0);
+
+    APP.suiIndicator.add( APP.suiLabel );
+
+    ATON.getRootUI().add( APP.suiIndicator );
 
 /*
     ATON.SUI.bShowInfo = false;
