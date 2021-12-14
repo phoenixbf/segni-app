@@ -332,6 +332,11 @@ APP.setupEvents = ()=>{
     ATON.on("CurrentXPF", i => {
         //console.log(i)
         APP.filterSemantics();
+
+        if (APP.conf === undefined) return;
+
+        $("#idTitle").html( APP.conf.network[i].title );
+        $("#idSubTitle").html( APP.conf.network[i].name );
     });
 
     // When we request a locomotion node transition, hide indicator
