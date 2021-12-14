@@ -30,6 +30,7 @@ APP.currperiod = "m";
 
 APP._bFirstPOV = false;
 APP._rotOffset = new THREE.Vector3(0.0, -(Math.PI * 0.5), 0.0);
+//APP._rotOffset = new THREE.Vector3(0.0, -(Math.PI*2.0), 0.0);
 
 APP._bShowingPanel = false;
 APP.auGen = undefined;
@@ -332,7 +333,11 @@ APP.setupEvents = ()=>{
         APP.suiIndicator.position.copy( xpf.getLocation() );
 
         if (APP.conf.network[i].name){
-            APP.suiLabel.setText( APP.conf.network[i].name );
+            let strlabel = APP.conf.network[i].name;
+
+            let ds = ATON.Utils.getHumanReadableDistance( ATON.XPFNetwork.getDistanceToXPFindex(i) );
+
+            APP.suiLabel.setText( strlabel + " ("+ds+")" );
             APP.suiLabel.lookAt( ATON.Nav.getCurrentEyeLocation() );
         }
     });
