@@ -160,7 +160,7 @@ APP.loadConfig = (path)=>{
 
                 xpf.setBaseLayer(d.name);
                 xpf.setLocation(d.pos[0],d.pos[1],d.pos[2]);
-                if (d.rot !== undefined) xpf.setRotation( d.rot[0],d.rot[1],d.rot[2] );
+                if (d.rot !== undefined) xpf.setRotation( d.rot[0], d.rot[1]+APP._rotOffset.y, d.rot[2] );
 
                 ATON.XPFNetwork.add( xpf );
             }
@@ -312,7 +312,7 @@ APP.setupEvents = ()=>{
         APP.updatePanel(ATON._hoveredSemNode);
     });
 
-
+    // XPF
     // We subscribe to next XPF detected
     ATON.on("NextXPF", i =>{
         // No next XPF detected, hide the indicator 
@@ -322,6 +322,8 @@ APP.setupEvents = ()=>{
         }
         // Next XPF detected, show indicator and update its location
         let xpf = ATON.XPFNetwork.getXPFbyIndex(i);
+
+        console.log( APP.conf.network[i].name )
 
         APP.suiTelep.visible = true;
         APP.suiTelep.position.copy( xpf.getLocation() );
@@ -388,6 +390,7 @@ APP.buildSlider = (id)=>{
 
 
 APP.buildSUI = ()=>{
+    let iconsize = 1.0;
 
     APP.matTelep = new THREE.SpriteMaterial({ 
         map: new THREE.TextureLoader().load( APP.contentDir+"ui/teleport.png" ), 
@@ -400,7 +403,7 @@ APP.buildSUI = ()=>{
     //APP.matTelep.sizeAttenuation = false;
 
     APP.suiTelep = new THREE.Sprite( APP.matTelep );
-    APP.suiTelep.scale.set(0.5,0.5,0.5);
+    APP.suiTelep.scale.set(iconsize,iconsize,iconsize);
 
     ATON.getRootUI().add( APP.suiTelep );
 
@@ -422,12 +425,6 @@ APP.buildSUI = ()=>{
     APP.suiTelep = new THREE.Sprite( APP.matTelep );
     APP.suiTelep.scale.set(telSize,telSize,1);
     ATON.getRootUI().add(APP.suiTelep);
-*/
-/*
-    APP.suiTelep = ATON.SUI.buildPanelNode("suiTeleport", APP.contentDir+"ui/teleport.png", telSize,telSize);
-    APP.suiTelep
-        .setRotation(-1.57079632679,0.0,0.0)
-        .attachToRoot();
 */
 };
 
