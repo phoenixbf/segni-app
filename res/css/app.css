@@ -51,6 +51,12 @@ input[type=range]::-webkit-slider-thumb {
     pointer-events: none;
 }
 
+@media screen and (max-width: 500px) {
+    .titleContainer {
+        display: none;
+    }
+}
+
 .titleText {
     font-size: max(12px, 2vw);
     font-weight: bold;

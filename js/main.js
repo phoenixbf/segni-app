@@ -137,13 +137,13 @@ APP.filterSemantics = ()=>{
     for (let j in APP._semlist) ATON.getSemanticNode(APP._semlist[j]).hide();
 
     let proxiesList = p.semlist[APP.currperiod];
-    console.log(proxiesList)
+    //console.log(proxiesList)
 
     if (proxiesList !== undefined){
         for (let j in proxiesList){
             let S = ATON.getSemanticNode(proxiesList[j]);
             if (S !== undefined) S.show();
-            console.log(S)
+            //console.log(S)
         }
     }
 };
@@ -327,7 +327,7 @@ APP.setupEvents = ()=>{
         // Next XPF detected, show indicator and update its location
         let xpf = ATON.XPFNetwork.getXPFbyIndex(i);
 
-        console.log( APP.conf.network[i].name )
+        //console.log( APP.conf.network[i].name )
 
         APP.suiIndicator.show();
         APP.suiIndicator.position.copy( xpf.getLocation() );
