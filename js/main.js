@@ -66,8 +66,8 @@ APP.init = ()=>{
     $("#idSlider").on("input change",()=>{
         let v = parseInt( $("#idSlider").val() );
 
-        if (v === 0) APP.switchToPeriod("m");
-        else APP.switchToPeriod("a");
+        if (v === 0) APP.switchToPeriod("a");
+        else APP.switchToPeriod("m");
     });
 
     //$("#idPanel").hide();
@@ -164,7 +164,18 @@ APP.loadConfig = (path)=>{
 
                 xpf.setBaseLayer(d.name);
                 xpf.setLocation(d.pos[0],d.pos[1],d.pos[2]);
-                if (d.rot !== undefined) xpf.setRotation( d.rot[0], d.rot[1]+APP._rotOffset.y, d.rot[2] );
+
+                let rx = APP._rotOffset.x;
+                let ry = APP._rotOffset.y;
+                let rz = APP._rotOffset.z;
+
+                if (d.rot !== undefined){
+                    rx += d.rot[0];
+                    ry += d.rot[1];
+                    rz += d.rot[2];
+                }
+
+                xpf.setRotation( rx,ry,rz );
 
                 ATON.XPFNetwork.add( xpf );
             }
@@ -398,9 +409,9 @@ APP.setupEvents = ()=>{
 // Switch / Slider
 APP.buildSlider = (id)=>{
     let ht = "<div class='appSlider'>";
-    ht += "Attuale&nbsp;";
-    ht += "<input id='"+id+"' type='range' min='0' max='1' value='0' style='width:100px'>";
-    ht += "&nbsp;Passato";
+    ht += "Passato&nbsp;";
+    ht += "<input id='"+id+"' type='range' min='0' max='1' value='1' style='width:100px'>";
+    ht += "&nbsp;Attuale";
     ht += "</div>";
 
     return ht;
