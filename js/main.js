@@ -344,11 +344,15 @@ APP.setupEvents = ()=>{
         APP.suiIndicator.position.copy( xpf.getLocation() );
 
         if (APP.conf.network[i].name){
-            let strlabel = APP.conf.network[i].name;
+            let strlabel = APP.conf.network[i].title;
 
             let ds = ATON.Utils.getHumanReadableDistance( ATON.XPFNetwork.getDistanceToXPFindex(i) );
 
-            APP.suiLabel.setText( strlabel + " ("+ds+")" );
+            if (APP.conf.distancetext){
+                strlabel += "\n"+APP.conf.distancetext+" "+ds;
+            }
+
+            APP.suiLabel.setText( strlabel );
             APP.suiLabel.lookAt( ATON.Nav.getCurrentEyeLocation() );
         }
     });
@@ -438,7 +442,7 @@ APP.buildSUI = ()=>{
     APP.suiIndicator.add( APP.suiTelep );
 
     APP.suiLabel = new ATON.SUI.Label(undefined, 0.5,0.1);
-    APP.suiLabel.setScale(iconsize*8.0).setPosition(0.0,0.7,0.0);
+    APP.suiLabel.setScale(iconsize*8.0).setPosition(0.0,0.9,0.0);
 
     APP.suiIndicator.add( APP.suiLabel );
 

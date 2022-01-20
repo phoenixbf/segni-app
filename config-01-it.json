@@ -1,8 +1,9 @@
 {
+    "distancetext": "distante",
     "network": [
         {
             "name": "Acropoli_SPietro_01",
-            "title": "Acropoli S. Pietro",
+            "title": "Acropoli S. Pietro 01",
             "pos": [
                 143.0237579345703,
                 670.8226928710938,
@@ -25,7 +26,7 @@
         },
         {
             "name": "Acropoli_SPietro_07",
-            "title": "Acropoli S. Pietro",
+            "title": "Acropoli S. Pietro 07",
             "pos": [
                 132.7771759033203,
                 667.490234375,
@@ -48,7 +49,7 @@
         },
         {
             "name": "Acropoli_SPietro_10",
-            "title": "Acropoli S. Pietro",
+            "title": "Acropoli S. Pietro 10",
             "pos": [
                 134.66159057617188,
                 666.6394653320312,
@@ -72,7 +73,7 @@
         },
         {
             "name": "Acropoli_SPietro_11",
-            "title": "Acropoli S. Pietro",
+            "title": "Acropoli S. Pietro 11",
             "pos": [
                 128.59681701660156,
                 667.6868286132812,
@@ -87,7 +88,7 @@
         },
         {
             "name": "Acropoli_SPietro_14",
-            "title": "Acropoli S. Pietro",
+            "title": "Acropoli S. Pietro 14",
             "pos": [
                 134.14163208007812,
                 669.5715942382812,
@@ -102,7 +103,7 @@
         },
         {
             "name": "Acropoli_SPietro_19",
-            "title": "Acropoli S. Pietro",
+            "title": "Acropoli S. Pietro 19",
             "pos": [
                 104.4297103881836,
                 669.81982421875,
