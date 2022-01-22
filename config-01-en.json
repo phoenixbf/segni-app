@@ -1,0 +1,457 @@
+{
+    "distancetext": "distante",
+    "network": [
+        {
+            "name": "Acropoli_SPietro_01",
+            "title": "San Pietro",
+            "pos": [
+                143.0237579345703,
+                670.8226928710938,
+                -499.3877868652344
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": [
+                "UN_int.basilica_1",
+                "UN_int.basilica_2",
+                "UN_int.basilica_4"
+            ]
+        },
+        {
+            "name": "Acropoli_SPietro_02",
+            "title": "San Pietro",
+            "pos": [
+                139.37998962402344,
+                670.5765380859375,
+                -506.5868225097656
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_03",
+            "title": "San Pietro",
+            "pos": [
+                137.33863830566406,
+                670.7691650390625,
+                -511.3632507324219
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_04",
+            "title": "San Pietro",
+            "pos": [
+                147.9171905517578,
+                670.8320922851562,
+                -510.36981201171875
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_07",
+            "title": "San Pietro",
+            "pos": [
+                132.7771759033203,
+                667.490234375,
+                -480.8262939453125
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": [
+                "UN_int.basilica_1",
+                "UN_int.basilica_2",
+                "UN_int.basilica_4"
+            ]
+        },
+        {
+            "name": "Acropoli_SPietro_08",
+            "title": "San Pietro",
+            "pos": [
+                139.75343322753906,
+                667.807861328125,
+                -483.8337707519531
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_10",
+            "title": "San Pietro",
+            "pos": [
+                134.66159057617188,
+                666.6394653320312,
+                -469.038818359375
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": [
+                "UN_est.basilica_1",
+                "UN_est.basilica_2",
+                "UN_int.basilica_3"
+            ]
+        },
+        {
+            "name": "Acropoli_SPietro_11",
+            "title": "San Pietro",
+            "pos": [
+                128.59681701660156,
+                667.6868286132812,
+                -493.3753356933594
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_14",
+            "title": "San Pietro",
+            "pos": [
+                134.14163208007812,
+                669.5715942382812,
+                -499.2643737792969
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_15",
+            "title": "San Pietro",
+            "pos": [
+                123.47755432128906,
+                667.84375,
+                -500.3470458984375
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_16",
+            "title": "San Pietro",
+            "pos": [
+                118.28775787353516,
+                667.8531494140625,
+                -511.2952880859375
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_17",
+            "title": "San Pietro",
+            "pos": [
+                105.54170227050781,
+                668.5390014648438,
+                -545.5233764648438
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_18",
+            "title": "San Pietro",
+            "pos": [
+                114.32894897460938,
+                667.9788208007812,
+                -537.7156982421875
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_19",
+            "title": "San Pietro",
+            "pos": [
+                104.4297103881836,
+                669.81982421875,
+                -555.406982421875
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        }
+    ],
+    "sem": {
+        "UN_intromappa_1": {
+            "title": "Welcome",
+            "descr": "[PRESENT] Welcome to Segni, a city in the south of Rome, located on the western side of the Lepini Mountains, in a dominant position with respect to the Sacco valley and with a long and incredible history. Thanks to new technologies, we will tell you about the main monuments of Segni allowing you to take a journey through time just a click away.\r\nThe first great monument of the ancient \"Signia\", as it was called by ....... it is the city itself: designed and conceived by an unknown urban planner of the time (which era?), the historic center of Segni stands on the structure of the ancient city. Even today, the streets and squares of the historic center follow those of the ancient city, organized on large scaled terraces, made of polygonal limestone.\r\nThe first traces of an inhabited area, limited only to the upper part of the city, on the top of the mountain, date back to the 11th century BC, but it is only at the end of the 6th century, beginning of the 5th century BC. that the city is structured in the form and appearance that we can still see today.\r\n",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_cisterna_1": {
+            "title": "The Acropolis",
+            "descr": "Dear traveler, you are in the upper part of the city which is reached, as you have probably done, via a dirt path....blablabla.... [complete]",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_cisterna_2": {
+            "title": "The Cistern",
+            "descr": "The large circular basin that you see before you, more or less as wide as the podium of the temple and placed immediately behind it, is one of the very first examples of opus signinum: a way of building cisterns \"in the manner of Segni\", well described by Vitruvius. The large tank functioned as a rainwater collection basin for the large public complex of the acropolis, as well as the impluvia of the domus or villae.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_cisterna_3": {
+            "title": "A circular tank",
+            "descr": "The structure of the tank was obtained by digging in the limestone bank a large circular hollow and throwing, between the profile of the excavation and a curtain of large square blocks of tufa, a mixture of lime mixed with sand and minute limestone fragments.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_cisterna_4": {
+            "title": "Water distribution",
+            "descr": "The large circular basin was only the starting point of a more complex system of water distribution, based on at least a second large cistern and a series of channels, found in several points of the western side of the city, which seem to return the image of a real urban aqueduct powered by rainwater.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_est.basilica_1": {
+            "title": "The acropolis complex",
+            "descr": "The area of the ancient acropolis where you are now, dear traveler, located on top of the mountain, brought together in a single architectural organism at least three elements of great importance for the ancient city: the temple, dedicated to the patron goddess of the city, Juno Moneta, with its square in front, the large circular basin behind it and the small terminal terrace, intended to accommodate some building now lost.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_est.basilica_1a": {
+            "title": "",
+            "descr": "",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_est.basilica_2": {
+            "title": "The Basilica",
+            "descr": "The structure in front of you, with its large facade and the wide staircase, is the final result of a long series of interventions, of which it is often not possible to trace the various phases. A general architectural reorganization was identified in the late second century BC, which gave to the acropolis of Segni the characteristics of the major architecture of late Hellenism.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_est.basilica_2a": {
+            "title": "",
+            "descr": "",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_est.basilica_3": {
+            "title": "The medieval castrum",
+            "descr": "In the Middle Ages (age?) the area of the acropolis acquires a purely strategic role, by virtue of the fact that it was the most prone to be fortified and the most defensible. The arrangement of this space, also called castrum, on the upper part of the city dates back to the first centuries of the early Middle Ages (age?) and is even more pronounced in the twelfth - thirteenth century, a period in which Pope Eugene III built a palace, which you see at your [right or left?] ......, now occupied by the complex of the former Episcopal Seminary.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_est.basilica_3a": {
+            "title": "",
+            "descr": "",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_int.basilica_1": {
+            "title": "The temple of Juno Moneta",
+            "descr": "Dear traveler now you can not see it, but once here stood the temple of Juno Moneta, which was erected in monumental forms in the same area that had hosted the original place of worship of the royal and late archaic.\nThe temple stood on a high podium in polygonal work, formed by three steps, on the front of which was to be attached to the staircase of access. Above the podium, a large columned pronaos and, in the rear part, three cells side by side, according to the ancient scheme of the temple of Etruscan-Italic type.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_int.basilica_1a": {
+            "title": "",
+            "descr": "",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_int.basilica_2": {
+            "title": "The roof of the temple",
+            "descr": "The entire roof of the temple was entirely decorated with colorful architectural terracottas. In the Archaeological Museum are preserved some specimens of these wonderful artifacts, both belonging to the archaic temple, both pertaining to the largest temple of the second century BC. I invite you to visit it after this open-air tour, dear traveler!",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_int.basilica_2a": {
+            "title": "",
+            "descr": "",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_int.basilica_3": {
+            "title": "Church of St. Peter",
+            "descr": "The transformation from a pagan temple to a church dedicated to St. Peter took place gradually, probably starting from the VI - VII century. The church you are about to cross consists of a single nave, built over the remains of the central cell of the temple, although three large arches visible inside on the right wall, would suggest at least another smaller one placed on this side of the building.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_int.basilica_3a": {
+            "title": "",
+            "descr": "",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_ninfeo_1": {
+            "title": "A monumental fountain",
+            "descr": "Inside the walls of the city of Segni, in an area rich in water sources, the nymphaeum that opens in front of you, dear traveler, was built between the end of the second and beginning of the first century BC: a monumental fountain with a particular and rich architectural decoration. The nymphaeum, which was part of a larger complex that was almost certainly public, must have recalled a marine cavern, where it was thought the mythical nymphs lived.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_ninfeo_2": {
+            "title": "A precious mosaic",
+            "descr": "The nymphaeum was decorated with a series of niches, which were originally intended to house statues. These, together with the vault, were entirely decorated with rustic mosaic and embellished with shells of various kinds and beads of Egyptian blue. The water, from the nearby cistern, flowed through a conduit from the rectangular niche that you see in the center, at the top of the fountain, and filled the basin below, covered with cocciopesto, a material.....blablabla.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_ninfeo_3": {
+            "title": "The architect's signature",
+            "descr": "The exceptionality of the monument is given by the presence of an inscription, clearly visible in the rustic mosaic decoration at the center of the nymphaeum. Here, in a frame formed by tellin shells and on the background of a white mosaic with irregular marble tesserae, one can read, in Greek letters formed by beads of Egyptian blue, the signature of the architect who designed the nymphaeum: Quintus Mutius.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_murapoligonali_1": {
+            "title": "Ancient walls",
+            "descr": "The walls of the ancient city of Segni were built in polygonal limestone and even today the wall circuit is almost entirely preserved and can be visited for its entire extension. Dear traveler, do you know that you can walk about 5 km? The walls were built between the late sixth and fifth centuries BC. With their majestic grandeur, this defensive structure shows the skill of the builders of the time.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_murapoligonali_2": {
+            "title": "A double curtain",
+            "descr": "The blocks for the construction of the walls were obtained from the rock near the line of the walls. The blocks were mounted and smoothed directly on the laying surface, without the use of mortar. The walls of Segni show a double curtain: an outer one formed by perfectly smooth blocks, so as not to offer footholds to any enemies, and an inner one, with blocks less finished and resting on an embankment of shoulder.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_murapoligonali_3": {
+            "title": "The doors of the wall",
+            "descr": "In the city walls there are numerous doors of different sizes, placed at the service of the city streets. The most famous among the main entrances to the ancient city is Porta Saracena, located in the western side of the walls. Have you already visited it, dear traveler? You will surely notice its characteristic \"truncated ogive\" shape, which has made it one of the most depicted by travelers and scholars who since the early nineteenth century were intent on studying the polygonal work.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_muramedievali_1": {
+            "title": "The walls in the Middle Ages",
+            "descr": "The mighty circuit in polygonal was reused for defense even in medieval times (age?): restorations and elevations in blocks of tufa and architectural materials and construction of reuse are noted throughout the southern and eastern side of the walls, up to the cd. Porta delle Monache, near the acropolis.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_muramedievali_2": {
+            "title": "Saracen Door",
+            "descr": "In the Middle Ages, the western side of the city, leading to Porta Saracena, was abandoned and the line of defense of the city set back, using instead the high and powerful terraces of the Roman era, which on this side of the ancient city could adapt well to the role of defense.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_muramedievali_3": {
+            "title": "Defense system",
+            "descr": "The medieval defensive circuit if on one hand continued in part to use the majestic walls of defense of the Roman city, on the other transformed for defensive purposes the area of the ancient acropolis. In the nineteenth-century maps this double system of defense is still perceptible in the names of some roads and in some toponyms.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_fororomano_1": {
+            "title": "Forum Square",
+            "descr": "The ancient Forum of Segni occupied the area of today's Piazza S. Maria that opens before you, dear traveler; here today, as in the past, is the fulcrum of city life. The square of the Forum was located at the point of intersection of the two major road axes: the first, running north-south, connected the main gate of the city, Porta Maggiore, with the acropolis; the second, east-west, connected the square with another entrance of considerable importance, the Porta dell'Elcino, located....blablabla.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_fororomano_2": {
+            "title": "Large terraces",
+            "descr": "Remains of some of the large terraces on which the square was built, are still visible in the adjacent square Pericles Felici, that you find at your [right or left?]....; such remains testify, the accurate planning that underlay such works. The real square probably had to be in the space now occupied by the Cathedral of Santa Maria Assunta, built in the seventeenth century that you see now before you, in its magnificence.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_fororomano_3": {
+            "title": "The Forum in the Middle Ages",
+            "descr": "In the Middle Ages (age?) the square continued to be the fulcrum of the city's life, but changing its internal structure and hosting the architectural complexes that were the expression of the society of the time. Of fundamental importance to understand the layout of the area in ancient and medieval times, were the results of the excavation campaign 2012-2014, called Segni Project, carried out with the valuable collaboration of the British School at Rome, just in the quadrant located today in front of the bar ...............",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_Museo_1": {
+            "title": "The Town Hall",
+            "descr": "The palace you see from the Cathedral square, dear traveler, was built in the middle of the thirteenth century and was the seat of the Municipality until 1876. Since 2001 it has housed the Municipal Archaeological Museum of Segni. Inside, the Museum's exhibition route is divided into topographical sections, which help in the understanding and the visit of the Urban Archaeological Park \"Segni City-Museum\". You are welcome, come in!",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_Museo_2": {
+            "title": "The construction of the palace",
+            "descr": "In its original phase the building had to be constituted by a portico on the ground floor consisting of a series of round arches, which alternated blocks of limestone to those of tuff giving a very lively bichromatic effect; on the second floor there was a loggia with large windows with pointed arches in blocks of tuff; on the third floor there was probably a second loggia, smaller.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_Museo_3": {
+            "title": "The Museum today",
+            "descr": "The palace that today houses the Museum was built in a dominant position with respect to the square below, in antithesis to the palace of the Episcopio, which you can see on your [right or left?]......., dear traveler. The palace of the Episcopio was the center of the bishop's power and had to represent the secular politics of the free Communes, that from the XI century were gradually emerging in the whole national territory and that represent today a real Italian peculiarity.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_Cripto_1": {
+            "title": "Place of exchanges and meetings",
+            "descr": "In the late first century BC, in an area adjacent to the forum, along the east-west axis of the urban road system, was built a large cryptoporticus, ie a covered portico, now partially visitable along Via Lauri, inside some private property. It was a commercial and meeting place for all citizens, built to expand the space of the forensic square and usable even in adverse weather conditions.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_Cripto_2": {
+            "title": "A covered porch",
+            "descr": "The cryptoporticus, built in a beautiful limestone latticework, developed in two arms, divided into two parallel naves by a series of central arches supported by tuff pillars.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_Cripto_3": {
+            "title": "The Volumnii family",
+            "descr": "The cryptoporticus was built for the city by two local magistrates of the well-known Volumnii family, as we read in the epigraph celebrating its construction, which you can read right along........ blablabla, dear traveler. In fact, the commemorative epigraph reads that C. Volumnius and Q. Volumnius, who at the time held the office of quattuorviri, a sort of magistrates in ancient Rome, donated at their own expense this magnificent building, which must have had gardens nearby. The donation to the city of Segni of the structure was a powerful vehicle of political propaganda for the family, as was the custom in the political life of the Roman world.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_epigrafia_1": {
+            "title": "Epigraphs",
+            "descr": "Inside one of the currently inhabited buildings of the city, in correspondence with the final section of the cryptoporticus, belonging to the well-known Lauri family, from which the current street takes its name, some inscriptions are walled up.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_epigrafia_2": {
+            "title": "Ottavio Lauri",
+            "descr": "You can catch a glimpse of them, dear traveler, as you enter the main door of the palace at ........ The inscriptions were found and preserved in this place by Ottavio Lauri, a lover of antiquities and epigraphy who lived between the 16th and 17th centuries.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_epigrafia_3": {
+            "title": "The works for the Cathedral",
+            "descr": "Among these inscriptions, besides the one commemorating the construction of the cryptoporticus, there are two funerary epigraphs and a commemorative one, found during the construction works of the Cathedral in the city center, in the first half of 1600, works started by Giovanni Battista Lauri, son of Ottavio Lauri and then Mayor of the city.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        }
+    }
+}

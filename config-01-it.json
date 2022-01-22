@@ -3,136 +3,447 @@
     "network": [
         {
             "name": "Acropoli_SPietro_01",
-            "title": "Acropoli S. Pietro 01",
+            "title": "San Pietro",
             "pos": [
                 143.0237579345703,
                 670.8226928710938,
                 -499.3877868652344
             ],
             "rot": [
-                -3.1327896118164062,
-                2.980156898498535,
-                -3.140714645385742
+                0.0,
+                0.0,
+                0.0
             ],
-            "semlist":{
-                "a": [
-                    "UN_int.basilica_1"
-                ],
-                "m": [
-                    "UN_int.basilica_2",
-                    "UN_int.basilica_4"
-                ]
-            }
+            "semlist": [
+                "UN_int.basilica_1",
+                "UN_int.basilica_2",
+                "UN_int.basilica_4"
+            ]
+        },
+        {
+            "name": "Acropoli_SPietro_02",
+            "title": "San Pietro",
+            "pos": [
+                139.37998962402344,
+                670.5765380859375,
+                -506.5868225097656
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_03",
+            "title": "San Pietro",
+            "pos": [
+                137.33863830566406,
+                670.7691650390625,
+                -511.3632507324219
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_04",
+            "title": "San Pietro",
+            "pos": [
+                147.9171905517578,
+                670.8320922851562,
+                -510.36981201171875
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
         },
         {
             "name": "Acropoli_SPietro_07",
-            "title": "Acropoli S. Pietro 07",
+            "title": "San Pietro",
             "pos": [
                 132.7771759033203,
                 667.490234375,
                 -480.8262939453125
             ],
             "rot": [
-                0.07537858188152313,
-                4.65230131149292,
-                -0.06619204580783844
+                0.0,
+                0.0,
+                0.0
             ],
-            "semlist":{
-                "a": [
-                    "UN_int.basilica_1"
-                ],
-                "m": [
-                    "UN_int.basilica_2",
-                    "UN_int.basilica_4"
-                ]
-            }
+            "semlist": [
+                "UN_int.basilica_1",
+                "UN_int.basilica_2",
+                "UN_int.basilica_4"
+            ]
+        },
+        {
+            "name": "Acropoli_SPietro_08",
+            "title": "San Pietro",
+            "pos": [
+                139.75343322753906,
+                667.807861328125,
+                -483.8337707519531
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
         },
         {
             "name": "Acropoli_SPietro_10",
-            "title": "Acropoli S. Pietro 10",
+            "title": "San Pietro",
             "pos": [
                 134.66159057617188,
                 666.6394653320312,
                 -469.038818359375
             ],
             "rot": [
-                3.0271337032318115,
-                1.6396034955978394,
-                -3.27780818939209
+                0.0,
+                0.0,
+                0.0
             ],
-
-            "semlist":{
-                "a": [
-                    "UN_est.basilica_1"
-                ],
-                "m": [
-                    "UN_est.basilica_2",
-                    "UN_int.basilica_4"
-                ]
-            }
+            "semlist": [
+                "UN_est.basilica_1",
+                "UN_est.basilica_2",
+                "UN_int.basilica_3"
+            ]
         },
         {
             "name": "Acropoli_SPietro_11",
-            "title": "Acropoli S. Pietro 11",
+            "title": "San Pietro",
             "pos": [
                 128.59681701660156,
                 667.6868286132812,
                 -493.3753356933594
             ],
             "rot": [
-                0.0013756677508354187,
-                4.627748489379883,
-                0.013012755662202835
+                0.0,
+                0.0,
+                0.0
             ],
-            "semlist": {}
+            "semlist": []
         },
         {
             "name": "Acropoli_SPietro_14",
-            "title": "Acropoli S. Pietro 14",
+            "title": "San Pietro",
             "pos": [
                 134.14163208007812,
                 669.5715942382812,
                 -499.2643737792969
             ],
             "rot": [
-                -3.1289658546447754,
-                1.9749031066894531,
-                -3.139760732650757
+                0.0,
+                0.0,
+                0.0
             ],
-            "semlist": {}
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_15",
+            "title": "San Pietro",
+            "pos": [
+                123.47755432128906,
+                667.84375,
+                -500.3470458984375
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_16",
+            "title": "San Pietro",
+            "pos": [
+                118.28775787353516,
+                667.8531494140625,
+                -511.2952880859375
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_17",
+            "title": "San Pietro",
+            "pos": [
+                105.54170227050781,
+                668.5390014648438,
+                -545.5233764648438
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
+        },
+        {
+            "name": "Acropoli_SPietro_18",
+            "title": "San Pietro",
+            "pos": [
+                114.32894897460938,
+                667.9788208007812,
+                -537.7156982421875
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": []
         },
         {
             "name": "Acropoli_SPietro_19",
-            "title": "Acropoli S. Pietro 19",
+            "title": "San Pietro",
             "pos": [
                 104.4297103881836,
                 669.81982421875,
                 -555.406982421875
             ],
             "rot": [
-                -3.1368515491485596,
-                2.565514326095581,
-                -3.117729902267456
+                0.0,
+                0.0,
+                0.0
             ],
-            "semlist": {}
+            "semlist": []
         }
     ],
     "sem": {
-        "UN_volouccello_1": {
-            "title": "Benvenuti",
-            "descr": "Benvenuti a Segni, citt\u00e0 a sud di Roma, posizionata sul versante occidentale dei Monti Lepini, in posizione dominante rispetto alla valle del Sacco e con una lunga e incredibile storia. Grazie alle nuove tecnologie, vi racconteremo principali monumenti di Segni facendovi fare un viaggio nel tempo a portata di un click.",
+        "UN_fororomano_1": {
+            "title": "Piazza del foro",
+            "descr": "L\u2019antico Foro di Segni occupava l\u2019area dell\u2019attuale Piazza S. Maria che si apre dinanzi a te, caro viaggiatore; qui oggi, come un tempo, vi \u00e8 il fulcro della vita cittadina. La piazza del Foro venne collocata nel punto di incrocio dei due maggiori assi viari: il primo, con andamento nord-sud, collegava la porta principale della citt\u00e0, Porta Maggiore?, con l\u2019acropoli; il secondo, est-ovest, raccordava la piazza con un altro ingresso di notevole importanza, la Porta dell\u2019Elcino, situata\u2026.blablabla.",
             "cover": "immagine.jpg",
             "audio": "p11.mp3"
         },
-        "UN_volouccello_2": {
-            "title": "Antica Signia",
-            "descr": "Il primo grande monumento dell\u2019antica \u201cSignia\u201d, cos\u00ec era chiamata da \u2026\u2026. \u00e8 la citt\u00e0 stessa: disegnata e pensata da un ignoto urbanista dell\u2019epoca (quale epoca?), il centro storico di Segni sorge sulla struttura dell\u2019antica citt\u00e0. Ancora oggi le strade e le piazze del centro storico ricalcano quelle dell\u2019antica citt\u00e0, organizzata su ampie terrazze scalari, realizzate in opera poligonale di calcare.",
+        "UN_fororomano_2": {
+            "title": "Grandi terrazzamenti",
+            "descr": "Resti di alcuni dei grandi terrazzamenti su cui venne impostata la piazza, sono ancora visibili nell'adiacente piazza Pericle Felici, che trovi alla tua [destra o sinistra?]....; tali resti testimoniano, l\u2019accurata progettazione che sottostava a tali opere. La piazza vera e propria probabilmente doveva trovarsi nello spazio oggi occupato dalla Cattedrale di Santa Maria Assunta, edificata nel XVII secolo che vedi ora dinanzi a te, nella sua magnificenza.",
             "cover": "immagine.jpg",
             "audio": "p11.mp3"
         },
-        "UN_int_basilica_4":{
-            "title": "xxx",
-            "descr": "...",
+        "UN_fororomano_3": {
+            "title": "Il Foro nel Medioevo",
+            "descr": "In et\u00e0 medievale (et\u00e0?) la piazza continu\u00f2 a costituire il fulcro della vita cittadina, modificando per\u00f2 il suo assetto interno e ospitando i complessi architettonici che erano l\u2019espressione della societ\u00e0 dell\u2019epoca. Di fondamentale importanza per comprendere l\u2019assetto dell\u2019area in epoca antica e medievale, sono stati i risultati della campagna di scavo 2012-2014, denominata Segni Project, svolta con la preziosa collaborazione della British School at Rome, proprio nel quadrante collocato oggi di fronte al bar \u2026\u2026\u2026\u2026...",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_Museo_1": {
+            "title": "Il palazzo del Comune",
+            "descr": "Il palazzo che scorgi dalla piazza della Cattedrale, caro viaggiatore, fu costruito verso la met\u00e0 del XIII secolo e fu la sede del Comune, fino al 1876. Dal 2001 ospita il Museo Archeologico Comunale di Segni. All\u2019interno il percorso espositivo del Museo \u00e8 articolato in sezioni topografiche, che aiutano nella comprensione e alla visita del Parco Archeologico Urbano \u201cSegni Citt\u00e0-Museo\u201d. Sei il benvenuto, entra pure!",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_Museo_2": {
+            "title": "La costruzione del palazzo",
+            "descr": "Nella sua fase originaria l\u2019edificio doveva essere costituito da un portico al piano terreno costituito da una serie di arcate a tutto sesto, che alternavano blocchetti di calcare a quelli di tufo dando un effetto bicromo molto vivace; al secondo piano si apriva una loggia con ampi finestroni ad arco acuto in blocchetti di tufo; al terzo piano probabilmente vi era una seconda loggia, pi\u00f9 piccola.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_Museo_3": {
+            "title": "Il Museo oggi",
+            "descr": "Il Palazzo sede oggi del Museo fu costruito in posizione dominante rispetto alla piazza sottostante, in antitesi al palazzo dell\u2019Episcopio, che scorgi alla tua [destra o sinistra?]......., caro viaggiatore. Il palazzo dell\u2019Episcopio era centro del potere vescovile e doveva rappresentare quella politica laica dei liberi Comuni, che dall\u2019XI secolo stavano man mano nascendo in tutto il territorio nazionale e che rappresentano oggi una vera e propria peculiarit\u00e0 tutta italiana.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_Cripto_1": {
+            "title": "Luogo di scambi e incontri",
+            "descr": "Nel tardo I sec. a.C., in una zona adiacente al foro, lungo l\u2019asse est-ovest della viabilit\u00e0 urbana, venne costruito un grande criptoportico, cio\u00e8 un portico coperto, oggi parzialmente visitabile lungo via Lauri, all\u2019interno di alcune propriet\u00e0 private. Era un luogo commerciale e d\u2019incontro per tutti i cittadini, costruito per ampliare gli spazi della piazza forense e utilizzabile anche in condizioni climatiche avverse.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_Cripto_2": {
+            "title": "Un portico coperto",
+            "descr": "Il criptoportico, edificato in una bellissima opera reticolata di calcare, si sviluppava in due bracci, suddivisi in due navate parallele da una serie di arcate centrali sorrette da pilastri in tufo.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_Cripto_3": {
+            "title": "La famiglia dei Volumnii",
+            "descr": "Il criptoportico fu realizzato per la citt\u00e0 da due magistrati locali della nota famiglia dei Volumnii, cos\u00ec come si legge nell\u2019epigrafe che ne celebrava la costruzione, che potrai leggere proprio lungo\u2026\u2026.. blablabla, caro viaggiatore. Nell\u2019epigrafe commemorativa si legge infatti che C. Volumnius e Q. Volumnius, che all\u2019epoca ricoprivano la carica di quattuorviri, una sorta di magistrati nell\u2019antica Roma, regalarono a proprie spese questa magnifica costruzione, che doveva avere nelle vicinanze anche dei giardini. La donazione alla citt\u00e0 di Segni della struttura era un potente veicolo di propaganda politica per la famiglia, come si usava fare nella vita politica del mondo romano.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_epigrafia_1": {
+            "title": "Epigrafi",
+            "descr": "All\u2019interno di uno dei palazzi attualmente abitati della citt\u00e0, in corrispondenza con il tratto finale del criptoportico, appartenente alla nota famiglia Lauri, da cui prende il nome l\u2019attuale strada, sono murate alcune iscrizioni.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_epigrafia_2": {
+            "title": "Ottavio Lauri",
+            "descr": "Le puoi scorgere, caro viaggiatore, entrando nel portone del palazzo al civico \u2026\u2026.blablabla. Le iscrizioni furono rinvenute e conservate in questo luogo da Ottavio Lauri, appassionato di antichit\u00e0 e di epigrafia e vissuto tra il XVI e il XVII secolo.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_epigrafia_3": {
+            "title": "I lavori per la Cattedrale",
+            "descr": "Tra queste iscrizioni, oltre quella commemorativa della costruzione del criptoportico, vi sono due epigrafi funerarie e una commemorativa, rinvenuta durante i lavori di costruzione della Cattedrale del centro citt\u00e0, nella prima met\u00e0 del 1600, lavori avviati da Giovanni Battista Lauri, figlio di Ottavio Lauri e allora Sindaco della citt\u00e0.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_cisterna_1": {
+            "title": "L'Acropoli",
+            "descr": "Caro viaggiatore, ti trovi nella parte alta della citt\u00e0 a cui si arriva, come avrai probabilmente fatto, tramite un percorso sterrato\u2026.blablabla.... [completare]",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_cisterna_2": {
+            "title": "La Cisterna",
+            "descr": "La grande vasca circolare che vedi dinanzi a te, larga pi\u00f9 o meno quanto il podio del tempio e posta immediatamente alle sue spalle, \u00e8 uno dei primissimi esempi di opus signinum: un modo di costruire le cisterne \u201calla maniera di Segni\u201d, ben descritto da Vitruvio. La grande vasca funzionava da bacino di raccolta dell\u2019acqua piovana del grande complesso pubblico dell\u2019acropoli, cos\u00ec come gli impluvia delle domus o delle villae.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_cisterna_3": {
+            "title": "Una vasca circolare",
+            "descr": "La struttura della vasca venne ricavata scavando nel banco di calcare un grande incavo circolare e gettando, fra il profilo dello scavo e una cortina di grandi blocchi squadrati di tufo, una miscela composta da calce mista a sabbia e minuti frammenti calcarei.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_cisterna_4": {
+            "title": "Distribuzione delle acque",
+            "descr": "Il grande bacino circolare era soltanto il punto di partenza di un pi\u00f9 complesso sistema di distribuzione delle acque, basato su almeno una seconda grande cisterna e su una serie di canalizzazioni, rinvenute in pi\u00f9 punti del fianco occidentale della citt\u00e0, che sembrano restituire l\u2019immagine di un vero e proprio acquedotto urbano alimentato ad acqua piovana.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_est.basilica_1": {
+            "title": "Il complesso dell'acropoli",
+            "descr": "L\u2019area dell\u2019antica acropoli dove ti trovi adesso, caro viaggiatore, situata sulla sommit\u00e0 del monte, riuniva in un unico organismo architettonico almeno tre elementi di grande rilievo per la citt\u00e0 antica: il tempio, dedicato alla dea protettrice della citt\u00e0, Giunone Moneta, con la sua piazza antistante; il grande bacino circolare posto alle sue spalle e la piccola terrazza terminale, destinata ad ospitare un qualche edificio ormai perduto.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_est.basilica_1a": {
+            "title": "",
+            "descr": "",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_est.basilica_2": {
+            "title": "La Basilica",
+            "descr": "La struttura che hai dinanzi, con la grande facciata e la larga scalinata, \u00e8 il risultato finale di una lunga serie di interventi, di cui spesso non \u00e8 possibile rintracciare le varie fasi. Una generale riorganizzazione architettonica si \u00e8 individuata nel tardo II secolo a.C., che ha conferito all\u2019acropoli di Segni i caratteri propri delle maggiori architetture del tardo ellenismo.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_est.basilica_2a": {
+            "title": "",
+            "descr": "",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_est.basilica_3": {
+            "title": "Il castrum medievale",
+            "descr": "Nel Medioevo (et\u00e0?) l\u2019area dell\u2019acropoli acquisisce un ruolo prettamente strategico, in virt\u00f9 del fatto che era il luogo pi\u00f9 incline a essere fortificato e quello maggiormente difendibile. La sistemazione di questo spazio, detto anche  castrum, sulla parte alta della citt\u00e0 risale gi\u00e0 ai primi secoli dell'alto medioevo (et\u00e0?) e si accentua ancora di pi\u00f9 nel XII \u2013 XIII secolo, periodo in cui Papa Eugenio III fece costruire un palazzo, che vedi alla tua [destra o sinistra?] \u2026\u2026, oggi occupato dal complesso dell\u2019ex Seminario Vescovile.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_est.basilica_3a": {
+            "title": "",
+            "descr": "",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_int.basilica_1": {
+            "title": "Il tempio di Giunone Moneta",
+            "descr": "Caro viaggiatore ora non riesci a vederlo, ma un tempo qui sorgeva il tempio di Giunone Moneta che fu innalzato in forme monumentali nella stessa area che aveva ospitato l\u2019originario luogo di culto di et\u00e0 regia e tardo-arcaica.\nIl tempio sorgeva su un alto podio in opera poligonale, formato da tre gradoni, sulla fronte del quale doveva essere agganciata la scalinata di accesso. Al di sopra del podio, un ampio pronao colonnato e, nella parte posteriore, tre celle affiancate, secondo l\u2019antico schema del tempio di tipo etrusco-italico.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_int.basilica_1a": {
+            "title": "",
+            "descr": "",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_int.basilica_2": {
+            "title": "Il tetto del tempio",
+            "descr": "L\u2019intero tetto del tempio, era interamente decorato con coloratissime terrecotte architettoniche. Nel Museo Archeologico sono conservati alcuni esemplari di questi meravigliosi manufatti, sia appartenenti al tempio arcaico, sia pertinenti al pi\u00f9 grande tempio di II secolo a.C. Ti invito a visitarlo dopo questo giro all\u2019aperto, caro viaggiatore!",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_int.basilica_2a": {
+            "title": "",
+            "descr": "",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_int.basilica_3": {
+            "title": "Chiesa di S. Pietro",
+            "descr": "La trasformazione da tempio pagano a chiesa dedicata a San Pietro avvenne gradualmente, probabilmente a partire gi\u00e0 dal VI \u2013 VII secolo. La chiesa che stai per attraversare \u00e8 costituita da un\u2019unica navata, edificata sopra i resti della cella centrale del tempio, anche se tre ampie arcate visibile all\u2019interno sulla parete di destra, farebbero pensare almeno ad un\u2019altra pi\u00f9 piccola posta su questo lato dell\u2019edificio.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_int.basilica_3a": {
+            "title": "",
+            "descr": "",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_murapoligonali_1": {
+            "title": "Mura antiche",
+            "descr": "Le mura dell\u2019antica citt\u00e0 di Segni sono state realizzate in opera poligonale di calcare e ancora oggi il circuito murario \u00e8 quasi interamente conservato e visitabile per tutta la sua estensione. Caro viaggiatore, lo sai che puoi percorrere circa 5 Km? Le mura furono realizzate tra la fine del VI e il V secolo a.C. Con la loro maestosa imponenza, questa struttura difensiva mostra l\u2019abilit\u00e0 dei costruttori dell\u2019epoca.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_murapoligonali_2": {
+            "title": "Una doppia cortina",
+            "descr": "I blocchi per la costruzione delle mura erano ricavati dalla roccia in prossimit\u00e0 della linea stessa delle mura. I blocchi venivano montati e lisciati direttamente sul piano di posa, senza l\u2019utilizzo di malta. Le mura di Segni mostrano una doppia cortina: una esterna formata da blocchi perfettamente lisciati, per non offrire appigli a eventuali nemici, e una interna, con blocchi meno rifiniti e che poggiano a un terrapieno di spalla.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_murapoligonali_3": {
+            "title": "Le porte della mura",
+            "descr": "Nella cinta muraria si aprono numerose porte di diversa grandezza, poste a servizio delle strade cittadine. La pi\u00f9 famosa tra gli ingressi principali alla citt\u00e0 antica \u00e8 Porta Saracena, posta nel versante occidentale delle mura. L\u2019hai gi\u00e0 visitata, caro viaggiatore? Noterai sicuramente la sua caratteristica forma ad \u201cogiva tronca\u201d, che l\u2019ha resa tra le pi\u00f9 raffigurate dai viaggiatori e studiosi che fin dai primi anni dell\u2019Ottocento erano intenti a studiare l\u2019opera poligonale.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_muramedievali_1": {
+            "title": "Le mura nel Medioevo",
+            "descr": "Il poderoso circuito in poligonale fu riutilizzato per la difesa anche in epoca medievale (et\u00e0?): restauri e rialzamenti in blocchi di tufo e materiali architettonici e da costruzione di riutilizzo si notano in tutto il versante meridionale e orientale delle mura, fino alla cd. Porta delle Monache, in prossimit\u00e0 dell\u2019acropoli.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_muramedievali_2": {
+            "title": "Porta Saracena",
+            "descr": "In epoca medievale, il fianco occidentale, facente capo a Porta Saracena, venne per\u00f2 abbandonato e la linea di difesa della citt\u00e0 arretrata, sfruttando invece gli alti e possenti terrazzamenti d\u2019et\u00e0 romana, che su questo lato della citt\u00e0 antica ben si potevano adattare al ruolo di difesa.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_muramedievali_3": {
+            "title": "Sistema di difesa",
+            "descr": "Il circuito difensivo medievale se da una parte continuava in parte a utilizzare le maestose mura di difesa della citt\u00e0 romana, dall\u2019altra trasform\u00f2 per scopi difensivi l\u2019area dell\u2019antica acropoli. Nelle mappe ottocentesche questo duplice sistema di difesa \u00e8 ancora percepibile nei nomi di alcune strade e in alcuni toponimi.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_ninfeo_1": {
+            "title": "Una fontana monumentale",
+            "descr": "All\u2019interno delle mura della citt\u00e0 di Segni, in una zona ricca di sorgenti d\u2019acqua, fu costruito, tra la fine del II \u2013 inizi I secolo a.C. il ninfeo che si apre dinanzi a te, caro viaggiatore: una fontana monumentale dalla particolare e ricca decorazione architettonica. Il ninfeo, che faceva parte di un pi\u00f9 ampio complesso quasi certamente pubblico, doveva richiamare un antro marino, dove si pensava vivessero le mitiche ninfe.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_ninfeo_2": {
+            "title": "Un prezioso mosaico",
+            "descr": "Il ninfeo era decorato da una serie di nicchie, che in origine dovevano ospitare delle statue. Queste, insieme alla volta, erano interamente decorate a mosaico rustico e impreziosite da conchiglie di vario genere e perline di blu egiziano. L\u2019acqua, dalla vicina cisterna, sgorgava attraverso un condotto dalla nicchia rettangolare che vedi al centro, nella parte alta della fontana, e riempiva la sottostante vasca, rivestita di cocciopesto, un materiale\u2026..blablabla.",
+            "cover": "immagine.jpg",
+            "audio": "p11.mp3"
+        },
+        "UN_ninfeo_3": {
+            "title": "La firma dell'architetto",
+            "descr": "L\u2019eccezionalit\u00e0 del monumento \u00e8 data dalla presenza di un\u2019iscrizione, ben visibile nella decorazione a mosaico rustico al centro del del ninfeo. Qui, in una cornice formata da gusci di telline e sullo sfondo di un mosaico bianco a tessere irregolari di marmo, si legge, in lettere greche formate da perline di blu egiziano, la firma dell\u2019architetto che progett\u00f2 il ninfeo: Quintus Mutius.",
             "cover": "immagine.jpg",
             "audio": "p11.mp3"
         }
