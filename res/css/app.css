@@ -1,3 +1,23 @@
+.appLandingBody {
+    font-family: 'Segoe UI Local', 'Segoe UI Web (West European)';
+    
+    color:black;
+    text-align: center;
+
+    padding: 15px;
+    width: auto;
+
+    overflow-y: auto;
+}
+
+.appLandingMap {
+    width: 100%;
+    /*height: auto;*/
+    height: 400px;
+
+    /*max-width: 700px;*/
+}
+
 .appSlider {
     display: inline-block;
 

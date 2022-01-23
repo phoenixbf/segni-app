@@ -2,70 +2,94 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" href="appicon.png" sizes="512x512" type="image/png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="icon" href="appicon.png" sizes="512x512" type="image/png">
 
-    <!-- Add iOS meta tags and icons -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Segni">
-    <link rel="apple-touch-icon" href="appicon.png">
+<!-- Add iOS meta tags and icons -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Segni">
+<link rel="apple-touch-icon" href="appicon.png">
 
-	<!-- PWA manifest -->
-	<link rel="manifest" href="app.webmanifest">
+<!-- PWA manifest -->
+<link rel="manifest" href="app.webmanifest">
 
-	<meta name="title" content="segni">
-	<meta name="description" content="__APPDESC__">
-    <!-- Add meta theme-color -->
-    <meta name="theme-color" content="#000000" />
+<meta name="title" content="segni">
+<meta name="description" content="__APPDESC__">
+<!-- Add meta theme-color -->
+<meta name="theme-color" content="#000000" />
 
-    <title>Segni</title>
-    <link rel="stylesheet" type="text/css" href="res/css/aton.css">
-    <link rel="stylesheet" type="text/css" href="res/css/app.css">
+<title>Segni</title>
+<link rel="stylesheet" type="text/css" href="res/css/aton.css">
+<link rel="stylesheet" type="text/css" href="res/css/app.css">
+<link rel="stylesheet" type="text/css" href="vendors/ol/ol.css">
 
-    <!-- Vendors -->
-    <script type="text/javascript" src="vendors/vendors.min.js"></script>
-    <script type="text/javascript" src="dist/THREE.bundle.js"></script>
+<!-- Vendors -->
+<script type="text/javascript" src="vendors/vendors.min.js"></script>
+<script type="text/javascript" src="dist/THREE.bundle.js"></script>
 
-    <script type="text/javascript" src="dist/ATON.min.js"></script>
-    <!--
-    <script type="module" src="/src/ATON.js"></script>
-    -->
+<script type="text/javascript" src="dist/ATON.min.js"></script>
+<script type="text/javascript" src="vendors/ol/ol.js"></script>
+<script>
+const segniLatLon = [13.0073387, 41.6906772];
 
-	<!-- Main js entry -->
-	<script type="module" src="js/main.js"></script>
+const pins = [
+    [13.0073387, 41.6906772]
+];
+
+window.onload = ()=>{
+    let map = new ol.Map({
+        target: 'map',
+        layers: [
+            new ol.layer.Tile({
+                source: new ol.source.OSM()
+            })
+        ],
+        view: new ol.View({
+            center: ol.proj.fromLonLat( segniLatLon ),
+            zoom: 14
+        })
+    });
+
+    // Markers
+    let markers = new ol.layer.Vector({
+        source: new ol.source.Vector(),
+        style: new ol.style.Style({
+            image: new ol.style.Icon({
+                anchor: [0.5, 0.5], //0.5,1.0
+                src: 'content/maps/loc.png'
+            })
+        })
+    });
+    map.addLayer(markers);
+
+    for (let p in pins){
+        let C = pins[p];
+
+        let marker = new ol.Feature(new ol.geom.Point(ol.proj.fromLonLat(C)));
+        markers.getSource().addFeature(marker);
+    }
+
+    map.on('singleclick', function(event){
+        if (map.hasFeatureAtPixel(event.pixel) === true){
+            let coord = event.coordinate;
+            console.log(coord)
+        }
+    });
+};
+</script>
 </head>
 
-<body oncontextmenu="return false;">
+<body class='appLandingBody'>
+    <h1>Segni App</h1>
+    <!-- <img class="appLandingMap" src='content/main-map.jpg'><br> -->
 
-    <!-- Top Toolbar -->
-    <div id="idTopToolbar" class="atonToolbar atonToolbar-top">
+    <div id="map" class="appLandingMap"></div>
+
+    <div>
+        Benvenuto.... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut accumsan lorem. Etiam at lectus non orci fermentum accumsan at sit amet nunc. Morbi luctus sapien sed viverra tempus. Ut elit urna, dapibus ut justo ullamcorper, pharetra egestas odio. In rhoncus, ipsum ut efficitur gravida, nunc dolor interdum diam, in pretium mi ipsum sit amet risus. Donec ac auctor elit. Phasellus sit amet ligula sollicitudin, rutrum justo eget, commodo orci. Sed tempor ultrices ultricies. Mauris viverra ante at sapien rutrum consectetur. Aliquam erat volutpat. Ut in vulputate ex, quis congue ex. Aliquam non fermentum enim, non faucibus ipsum. Donec quis blandit lectus. Cras vehicula augue purus, eget porttitor enim pulvinar non. Ut eget vehicula justo, sit amet scelerisque nibh. In ultricies tempus dui, ac condimentum mi placerat vel. 
     </div>
-
-	<!-- Bottom Toolbar -->
-	<div id="idBottomToolbar" class="atonToolbar atonToolbar-bottom">
-    </div>
-
-    <div class="titleContainer">
-        <div id='idTitle' class="titleText">Hello World</div>
-        <div id='idSubTitle' class="subtitleText">Hello World</div>
-    </div>
-
-    <!-- Main Popup -->
-    <div id="idPopup" class="atonPopupContainer" style="display:none;"></div>
-
-    <!-- Info Panel -->
-    <div id="idPanel" class="atonSidePanelContainer" style="display:none; z-index:130;"></div>
-
-    <!-- Loader -->
-    <div id="idLoader" class="atonCenterLoader" style="display:none;"></div>
-
-    <!-- Powered by -->
-    <div id='idPoweredBy' class="atonToolbar atonToolbar-bottom poweredBy" >
-        Powered by <a href="http://osiris.itabc.cnr.it/aton/" target="_blank">ATON</a>
-    </div>
-
 </body>

@@ -83,7 +83,7 @@ APP.init = ()=>{
 
     // Load config
     APP.argConf = ATON.FE.urlParams.get('c');
-    if (APP.argConf) APP.loadConfig("config-"+ APP.argConf + ".json");
+    if (APP.argConf) APP.loadConfig("config/"+ APP.argConf + ".json");
 
     if (ATON.FE.urlParams.get('p') !== null){
         APP.argPano = parseInt( ATON.FE.urlParams.get('p') );
