@@ -77,6 +77,8 @@ window.onload = ()=>{
         if (map.hasFeatureAtPixel(event.pixel) === true){
             let coord = event.coordinate;
             console.log(coord)
+
+            ATON.Utils.goToURL("explore.html?c=01-it");
         }
     });
 };
