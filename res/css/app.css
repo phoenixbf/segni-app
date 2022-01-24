@@ -1,21 +1,41 @@
 .appLandingBody {
     font-family: 'Segoe UI Local', 'Segoe UI Web (West European)';
+    font-size: 16px;
     
     color:black;
     text-align: center;
 
-    padding: 15px;
+    padding: 20px;
     width: auto;
 
     overflow-y: auto;
 }
 
+.appLandingText {
+    margin-top: 10px;
+    text-align: left;
+}
+
 .appLandingMap {
     width: 100%;
     /*height: auto;*/
-    height: 400px;
+    height: 600px;
 
     /*max-width: 700px;*/
+    mix-blend-mode: multiply;
+}
+
+.appLandingMapContainer {
+    background-color: #fce4cf;
+    box-shadow: 0px 0px 10px #fce4cf;
+}
+
+.appLandingLogoTL {
+    /*display: block;*/
+
+    height: 100px;
+    width: auto;
+
 }
 
 .appSlider {
@@ -34,6 +54,7 @@
     padding: 3px;
 }
 
+/*
 input[type=range]::-webkit-slider-thumb {
     box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
     border: 1px solid #000000;
@@ -45,6 +66,7 @@ input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     margin-top: -12px;
 }
+*/
 
 .titleContainer {
     z-index: 110;
