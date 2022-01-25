@@ -1,6 +1,11 @@
 {
     "distancetext": "distante",
-    "shift": [2355500,4617500], 
+    "shift": [2355500,4617500],
+
+    "title": "Area dell'Acropoli",
+    "main": 0,
+    "icon": "area-acropoli.png",
+
     "network": [
         {
             "name": "Acropoli_SPietro_01",
