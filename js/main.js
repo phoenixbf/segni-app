@@ -294,8 +294,8 @@ APP.setupEvents = ()=>{
 
         //APP.popupStart();
 
-        if (APP.argPano !== undefined) ATON.XPFNetwork.requestTransitionByIndex(APP.argPano);
-        else ATON.XPFNetwork.requestTransitionByIndex(0);
+        if (APP.argPano !== undefined) ATON.XPFNetwork.requestTransitionByIndex(APP.argPano, 0.0);
+        else ATON.XPFNetwork.requestTransitionByIndex(0, 0.0);
     });
 
     ATON.on("AllNodeRequestsCompleted", ()=>{
