@@ -1,10 +1,7 @@
 {
     "distancetext": "distante",
     "epsg": "3004",
-    "shift": [
-        2355500,
-        4617500
-    ], 
+    "shift": [2355500,4617500], 
     "network": [
         {
             "name": "Acropoli_SPietro_01",

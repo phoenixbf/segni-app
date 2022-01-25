@@ -1,18 +1,56 @@
-const segniLatLon = [13.0073387, 41.6906772];
+//const segniLatLon = [13.0073387, 41.6906772];
 
-const pins = [
-    //[13.0073387, 41.6906772]
-    [2355643, 4617999]
+let lang = "it";
+let map = undefined;
+let markers = undefined;
+
+const configList = [
+    "01"
 ];
-/*
-const raster = new ol.RasterSource({
-  sources: [
-    new ol.source.Stamen({
-      layer: 'watercolor',
-    }),
-  ]
-});
-*/
+
+let loadConfigs = ()=>{
+    for (let c in configList){
+        let conf = configList[c];
+        $.getJSON( "config/"+conf+"-"+lang+".json", ( data )=>{
+            let shift = data.shift;
+            let list = [];
+            
+            for (let p in data.network){
+                let P = data.network[p];
+                let C = [0.0,0.0];
+
+                C[0] = shift[0] + P.pos[0];
+                C[1] = shift[1] - P.pos[2];
+
+                let marker = new ol.Feature({
+                    name: P.name,
+                    url: conf+"-"+lang + "&p="+p,
+                    geometry: new ol.geom.Point( C )
+                });
+
+                //list.push(P.pos);
+                list.push(C);
+
+                markers.getSource().addFeature(marker);
+            }
+
+            if (list.length < 1) return;
+
+            let avg = [0.0,0.0]
+            for (let m in list){
+                avg[0] += list[m][0];
+                avg[1] += list[m][1];
+            }
+
+            avg[0] = /*shift[0] + */parseFloat(avg[0] / list.length);
+            avg[1] = /*shift[1] - */parseFloat(avg[1] / list.length);
+
+            map.getView().setCenter( avg );
+        });
+    }
+};
+
+
 
 let welcomeText = ()=>{
     let txt = "Benvenuti a Segni, città a sud di Roma, posizionata sul versante occidentale dei Monti Lepini, in posizione dominante rispetto alla valle del Sacco e con una lunga e incredibile storia. Grazie alle nuove tecnologie, vi racconteremo i principali monumenti di Segni facendovi fare un viaggio nel tempo a portata di un click.<br>Il primo grande monumento dell’antica “Signia”, così era chiamata da Tarquinio il Superbo,  è la città stessa: disegnata e pensata da un ignoto urbanista, il centro storico di Segni sorge sulla struttura dell’antica città. Ancora oggi le strade e le piazze del centro storico ricalcano quelle dell’antica città, organizzata su ampie terrazze scalari, realizzate in opera poligonale di calcare.<br>Le prime tracce di un abitato, circoscritto unicamente nella parte alta della città, sulla sommità del monte, risalgono all’XI secolo a.C., ma è soltanto verso la fine del VI inizi del V secolo a.C. che la città si struttura nella forma e nell’aspetto che noi ancora oggi possiamo vedere.";
@@ -24,22 +62,21 @@ let welcomeText = ()=>{
 window.onload = ()=>{
     welcomeText();
 
-    let map = new ol.Map({
+    loadConfigs();
+
+    proj4.defs('EPSG:3004', '+proj=tmerc +lat_0=0 +lon_0=15 +k=0.999600 +x_0=2520000 +y_0=0 +ellps=intl +units=m +no_defs');
+    //console.log(ol.proj)
+    ol.proj.proj4.register(proj4);
+
+    map = new ol.Map({
         target: 'map',
 
         layers: [
-/*
             new ol.layer.Tile({
-                className: "multiply",
-                source: new ol.source.Stamen({
-                    layer: 'watercolor'
-                }), //new ol.source.OSM()
-            }),
-*/
-            new ol.layer.Tile({
-                source: new ol.source.Stamen({
-                    layer: 'toner-lite',
-                }), //new ol.source.OSM()
+                source: new ol.source.OSM()
+                /*source: new ol.source.Stamen({
+                    layer: 'toner-lite', // watercolor
+                }),*/
             })
         ],
 /*
@@ -50,40 +87,53 @@ window.onload = ()=>{
         ],
 */
         view: new ol.View({
-            center: ol.proj.fromLonLat( segniLatLon ),
-            zoom: 14
+            projection: 'EPSG:3004', //cproj,
+            center: [0,0],
+            //center: pins[0], //ol.proj.fromLonLat( segniLatLon ),
+            zoom: 18
         })
     });
 
     // Markers
-    let markers = new ol.layer.Vector({
+    markers = new ol.layer.Vector({
         source: new ol.source.Vector(),
         style: new ol.style.Style({
             image: new ol.style.Icon({
                 anchor: [0.5, 0.5], //0.5,1.0
-                src: 'content/maps/loc.png'
+                src: 'content/ui/loc.png'
             })
         })
     });
     
     map.addLayer(markers);
-
+/*
     for (let p in pins){
         let C = pins[p];
 
         //let P = ol.proj.fromLonLat(C);
-        let P = ol.proj.transform(C, 'EPSG:3004', 'EPSG:3857');
 
-        let marker = new ol.Feature(new ol.geom.Point( P ));
+        let marker = new ol.Feature(new ol.geom.Point( C ));
         markers.getSource().addFeature(marker);
     }
+*/
+    map.on('click', function(evt) {
+        let feature = map.forEachFeatureAtPixel(evt.pixel, (feature)=>{
+            let name = feature.A.name;
+            let eurl = feature.A.url;
+            
+            ATON.Utils.goToURL("explore.html?"+eurl);
+            return name;
+        });
+    });
 
+/*
     map.on('singleclick', function(event){
         if (map.hasFeatureAtPixel(event.pixel) === true){
             let coord = event.coordinate;
             console.log(coord)
 
-            ATON.Utils.goToURL("explore.html?c=01-it");
+            //ATON.Utils.goToURL("explore.html?c=01-it");
         }
     });
+*/
 };
