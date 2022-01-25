@@ -28,7 +28,7 @@
 .appLandingMapContainer {
     /*background-color: #fce4cf;*/
     background-color: white;
-    box-shadow: inset 0px 0px 60px #fce4cf;
+    box-shadow: inset 0px 0px 100px #fce4cf;
 }
 
 .appLandingLogoTL {
@@ -79,6 +79,8 @@ input[type=range]::-webkit-slider-thumb {
     overflow: hidden;
 
     top: 0px;
+    right: 0px;
+    text-align: right;
 
     padding: 10px;
 
@@ -103,8 +105,52 @@ input[type=range]::-webkit-slider-thumb {
 .titleText {
     font-size: max(12px, 2vw);
     font-weight: bold;
+    margin: 2px;
 }
 
 .subtitleText {
-    font-size: max(10px, 1vw);
+    font-size: max(10px, 1.5vw);
+    margin: 2px;
+}
+
+.panoList {
+    margin-top: 15px;
+}
+
+.panoListEntry {
+    pointer-events: auto;
+    display: inline-block;
+    font-size: max(8px, 1vw);
+
+    cursor: pointer;
+    text-decoration: none;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    padding: 2px;
+    margin: 0px;
+/*
+    border-radius: 5px;
+    background-color: rgba(0,0,0, 0.2);
+    */
+}
+
+.panoListEntry:hover {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.panoListEntry img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.panoListEntry img:hover {
+    width: 30px;
+    height: 30px;
 }

@@ -72,6 +72,13 @@ APP.init = ()=>{
 
     //$("#idPanel").hide();
 
+    $("#btnMap").click(()=>{
+        ATON.Utils.goToURL("index.html");
+    });
+    $("#btnWelcome").click(()=>{
+        APP.popupWelcome();
+    });
+
     APP.buildSUI();
 
     // Materials
@@ -156,9 +163,13 @@ APP.loadConfig = (path)=>{
 
         APP.conf = data;
 
+        if (APP.conf.title) $("#idTitle").html( APP.conf.title );
+
         if (data.network){
             for (let i in data.network){
                 let d = data.network[i];
+
+                $("#idPanoList").append("<div class='panoListEntry' onclick='ATON.XPFNetwork.requestTransitionByIndex("+i+")'>"+d.title+"<img src='content/ui/teleport.png'></div><br>");
 
                 let xpf = new ATON.XPF();
 
@@ -242,6 +253,7 @@ APP.updatePanel = (semid)=>{
     if (S === undefined) return;
 
     $("#idPanel").show();
+    $("#idPanoGeneral").hide();
     APP._bShowingPanel = true;
     //ATON._bPauseQuery  = true;
 
@@ -279,11 +291,21 @@ APP.updatePanel = (semid)=>{
 
     $("#idPanelClose").click(()=>{
         $("#idPanel").hide();
+        $("#idPanoGeneral").show();
         APP._bShowingPanel = false;
         ATON._bPauseQuery  = false;
 
         APP.stopCurrAudioIfPlaying();
     });
+};
+
+APP.popupWelcome = ()=>{
+    let htmlcontent = "<div class='atonPopupTitle'>"+APP.conf.title+"</div>";
+    htmlcontent += APP.conf.descr;
+
+    htmlcontent += "<br><div class='atonBTN atonBTN-horizontal atonBTN-text' onclick='ATON.FE.popupClose()'>OK</div>";
+
+    if ( !ATON.FE.popupShow(htmlcontent) ) return;
 };
 
 
@@ -296,6 +318,8 @@ APP.setupEvents = ()=>{
 
         if (APP.argPano !== undefined) ATON.XPFNetwork.requestTransitionByIndex(APP.argPano, 0.0);
         else ATON.XPFNetwork.requestTransitionByIndex(0, 0.0);
+
+        APP.popupWelcome();
     });
 
     ATON.on("AllNodeRequestsCompleted", ()=>{
@@ -363,8 +387,10 @@ APP.setupEvents = ()=>{
 
         if (APP.conf === undefined) return;
 
-        $("#idTitle").html( APP.conf.network[i].title );
-        $("#idSubTitle").html( APP.conf.network[i].name );
+        let strPano = (APP.conf.network[i].title)? APP.conf.network[i].title : APP.conf.network[i].name;
+
+        //$("#idTitle").html( APP.conf.network[i].title );
+        $("#idSubTitle").html( strPano );
     });
 
     // When we request a locomotion node transition, hide indicator
