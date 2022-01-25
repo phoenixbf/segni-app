@@ -79,6 +79,8 @@ APP.init = ()=>{
         APP.popupWelcome();
     });
 
+    $("#idPanoGeneral").hide();
+
     APP.buildSUI();
 
     // Materials
@@ -303,9 +305,14 @@ APP.popupWelcome = ()=>{
     let htmlcontent = "<div class='atonPopupTitle'>"+APP.conf.title+"</div>";
     htmlcontent += APP.conf.descr;
 
-    htmlcontent += "<br><div class='atonBTN atonBTN-horizontal atonBTN-text' onclick='ATON.FE.popupClose()'>OK</div>";
+    htmlcontent += "<br><br><div id='btnOKwelcome' class='atonBTN atonBTN-horizontal atonBTN-text'>OK</div>";
 
     if ( !ATON.FE.popupShow(htmlcontent) ) return;
+
+    $("#btnOKwelcome").click(()=>{
+        ATON.FE.popupClose();
+        $("#idPanoGeneral").show();
+    });
 };
 
 

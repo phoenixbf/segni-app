@@ -168,7 +168,7 @@ window.onload = ()=>{
     }
 */
     map.on('click', function(evt) {
-        let feature = map.forEachFeatureAtPixel(evt.pixel, (feature)=>{
+        map.forEachFeatureAtPixel(evt.pixel, (feature)=>{
             let name = feature.A.name;
             let eurl = feature.A.url;
             

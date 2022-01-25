@@ -1,3 +1,8 @@
+/*
+    CSS App Segni
+    author: B. Fanini CNR ISPC
+*/
+
 .appLandingBody {
     font-family: 'Segoe UI Local', 'Segoe UI Web (West European)';
     font-size: 16px;
@@ -85,7 +90,7 @@ input[type=range]::-webkit-slider-thumb {
     padding: 10px;
 
     color: #FFF;
-    text-shadow: 0px 0px 4px black;
+    text-shadow: 0px 0px 10px black;
 
     -moz-user-select: none;
     -khtml-user-select: none;
@@ -140,7 +145,12 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .panoListEntry:hover {
+/*
     font-size: larger;
+*/
+    transform: scale(1.5);
+    transform-origin: right;
+
     font-weight: bold;
 }
 
@@ -148,9 +158,4 @@ input[type=range]::-webkit-slider-thumb {
     width: 20px;
     height: 20px;
     vertical-align: middle;
-}
-
-.panoListEntry img:hover {
-    width: 30px;
-    height: 30px;
 }
