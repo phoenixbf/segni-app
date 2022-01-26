@@ -13,7 +13,7 @@ let markers = undefined;
 let extents = {};
 
 const configList = [
-    "01"
+    "01","02","03","04","05","06"
 ];
 
 let onConfLoaded = (data)=>{
