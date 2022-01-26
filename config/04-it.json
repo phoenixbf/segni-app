@@ -4,9 +4,10 @@
         2355500.0,
         4617500.0
     ],
-    "title": "Area dell'Acropoli",
+    "title": "04-it",
+    "descr": "\"All\u2019interno delle mura della citt\u00e0 si trova il ninfeo. Esso \u00e8 posizionato in un\u2019area che fu di fondamentale importanza nella storia urbanistica",
     "main": 0,
-    "icon": "area-acropoli.png",
+    "icon": "area-ninfeo.png",
     "network": [
         {
             "name": "Ninfeo 02",
@@ -23,16 +24,16 @@
             ],
             "semlist": {
                 "a": [
+                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4",
                     "UN_ninfeo_3",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_4"
                 ],
                 "m": [
+                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4",
                     "UN_ninfeo_3",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_4"
                 ]
             }
         },
@@ -51,16 +52,16 @@
             ],
             "semlist": {
                 "a": [
+                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4",
                     "UN_ninfeo_3",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_4"
                 ],
                 "m": [
+                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4",
                     "UN_ninfeo_3",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_4"
                 ]
             }
         },
@@ -79,16 +80,16 @@
             ],
             "semlist": {
                 "a": [
+                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4",
                     "UN_ninfeo_3",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_4"
                 ],
                 "m": [
+                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4",
                     "UN_ninfeo_3",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_4"
                 ]
             }
         },
@@ -107,14 +108,14 @@
             ],
             "semlist": {
                 "a": [
+                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_4"
                 ],
                 "m": [
+                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_4"
                 ]
             }
         },
@@ -133,14 +134,14 @@
             ],
             "semlist": {
                 "a": [
+                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_4"
                 ],
                 "m": [
+                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_4"
                 ]
             }
         }

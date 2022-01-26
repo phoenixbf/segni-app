@@ -4,18 +4,18 @@
         2355500.0,
         4617500.0
     ],
-    "title": "05-it",
-    "descr": "Il Palazzo sede oggi del Museo fu costruito in posizione dominante rispetto alla piazza sottostante, in antitesi al palazzo dell\u2019Episcopio. Quest\u2019ultimo era centro del potere vescovile e doveva rappresentare quella politica laica dei liberi Comuni, che dall\u2019XI secolo stavano man mano nascendo in tutto il territorio nazionale e che rappresentano oggi una vera e propria peculiarit\u00e0 tutta italiana.",
+    "title": "03-it",
+    "descr": "Le mura dell\u2019antica citt\u00e0 di Segni sono state realizzate in opera poligonale di calcare e ancora oggi il circuito murario \u00e8 quasi interamente conservato e visitabile per tutta la sua estensione. Caro viaggiatore, lo sai che puoi percorrere circa 5 Km? Le mura furono realizzate tra la fine del VI e il V secolo a.C. Con la loro maestosa imponenza, questa struttura difensiva mostra l\u2019abilit\u00e0 dei costruttori dell\u2019epoca.",
     "main": 0,
-    "icon": "area-museo.png",
+    "icon": "area-saracena.png",
     "network": [
         {
-            "name": "Museo_01",
+            "name": "Porta_01",
             "title": "Untitled",
             "pos": [
-                30.572872161865234,
-                620.1248779296875,
-                -80.15492248535156
+                -518.8472900390625,
+                580.4085693359375,
+                -665.8753662109375
             ],
             "rot": [
                 0.0,
@@ -23,8 +23,98 @@
                 0.0
             ],
             "semlist": {
-                "a": [],
-                "m": []
+                "Generico XIII secolo - Primi del XIV secolo": [],
+                "Eta' contemporanea": [],
+                "Eta' moderna": [],
+                "Fine XVI secolo - Inizi XVII secolo": [],
+                "Prima meta' del XVI secolo": [],
+                "XV secolo rec": [],
+                "XV secolo": [],
+                "Prima meta' del XV secolo": [],
+                "Inizi XV seoclo": [],
+                "Fine XIV secolo": [],
+                "Seconda meta' del XIV secolo": []
+            }
+        },
+        {
+            "name": "Porta_02",
+            "title": "Untitled",
+            "pos": [
+                -521.2083129882812,
+                579.3671875,
+                -659.5982055664062
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "Generico XIII secolo - Primi del XIV secolo": [],
+                "Eta' contemporanea": [],
+                "Eta' moderna": [],
+                "Fine XVI secolo - Inizi XVII secolo": [],
+                "Prima meta' del XVI secolo": [],
+                "XV secolo rec": [],
+                "XV secolo": [],
+                "Prima meta' del XV secolo": [],
+                "Inizi XV seoclo": [],
+                "Fine XIV secolo": [],
+                "Seconda meta' del XIV secolo": []
+            }
+        },
+        {
+            "name": "Porta_04",
+            "title": "Untitled",
+            "pos": [
+                -513.7098999023438,
+                579.3951416015625,
+                -655.6880493164062
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "Generico XIII secolo - Primi del XIV secolo": [],
+                "Eta' contemporanea": [],
+                "Eta' moderna": [],
+                "Fine XVI secolo - Inizi XVII secolo": [],
+                "Prima meta' del XVI secolo": [],
+                "XV secolo rec": [],
+                "XV secolo": [],
+                "Prima meta' del XV secolo": [],
+                "Inizi XV seoclo": [],
+                "Fine XIV secolo": [],
+                "Seconda meta' del XIV secolo": []
+            }
+        },
+        {
+            "name": "Porta_06",
+            "title": "Untitled",
+            "pos": [
+                -511.0252380371094,
+                578.1634521484375,
+                -647.177001953125
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "Generico XIII secolo - Primi del XIV secolo": [],
+                "Eta' contemporanea": [],
+                "Eta' moderna": [],
+                "Fine XVI secolo - Inizi XVII secolo": [],
+                "Prima meta' del XVI secolo": [],
+                "XV secolo rec": [],
+                "XV secolo": [],
+                "Prima meta' del XV secolo": [],
+                "Inizi XV seoclo": [],
+                "Fine XIV secolo": [],
+                "Seconda meta' del XIV secolo": []
             }
         }
     ],
