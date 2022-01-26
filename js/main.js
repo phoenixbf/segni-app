@@ -15,6 +15,8 @@ window.APP = APP;
 
 APP.FOV_STD = 70.0;
 
+APP.bgColor = new THREE.Color(0.05,0.16,0.25);
+
 //APP.P_MODERN = 0;
 //APP.P_PAST   = 1;
 
@@ -475,6 +477,7 @@ APP.buildSUI = ()=>{
     APP.suiIndicator.add( APP.suiTelep );
 
     APP.suiLabel = new ATON.SUI.Label(undefined, 0.5,0.1);
+    APP.suiLabel.setBaseColor( APP.bgColor );
     APP.suiLabel.setScale(iconsize*8.0).setPosition(0.0,0.9,0.0);
 
     APP.suiIndicator.add( APP.suiLabel );
