@@ -1,5 +1,5 @@
 /*
-	Montebelluna Web-App
+	Segni Web-App
     based on ATON framework
 
     author: bruno.fanini@ispc.cnr.it

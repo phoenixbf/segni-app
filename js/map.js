@@ -52,6 +52,15 @@ let loadConfig = (conf)=>{
             geometry: new ol.geom.Point( C )
         });
 
+        let iconStyle = new ol.style.Style({
+            image: new ol.style.Icon({
+                anchor: [0.1, 0.5],
+                src: "content/ui/"+data.icon,
+                //color: places[i][3],
+            })
+        });
+
+        marker.setStyle(iconStyle);
         markers.getSource().addFeature(marker);
 
         onConfLoaded(data);
@@ -148,25 +157,19 @@ window.onload = ()=>{
     // Markers
     markers = new ol.layer.Vector({
         source: new ol.source.Vector(),
+/*
         style: new ol.style.Style({
             image: new ol.style.Icon({
                 anchor: [0.5, 0.5], //0.5,1.0
                 src: 'content/ui/loc.png'
             })
         })
+*/
     });
     
     map.addLayer(markers);
-/*
-    for (let p in pins){
-        let C = pins[p];
 
-        //let P = ol.proj.fromLonLat(C);
-
-        let marker = new ol.Feature(new ol.geom.Point( C ));
-        markers.getSource().addFeature(marker);
-    }
-*/
+    // tap handling
     map.on('click', function(evt) {
         map.forEachFeatureAtPixel(evt.pixel, (feature)=>{
             let name = feature.A.name;
