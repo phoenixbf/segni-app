@@ -11,7 +11,7 @@
     "network": [
         {
             "name": "Ninfeo 02",
-            "title": "Untitled",
+            "title": "Vista frontale del Ninfeo",
             "pos": [
                 -274.1108093261719,
                 550.8930053710938,
@@ -24,16 +24,16 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_ninfeo_3",
-                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4"
+                    "UN_ninfeo_3",
+                    "UN_ninfeo_4",
+                    "UN_ninfeo_2"
                 ],
                 "a": [
-                    "UN_ninfeo_3",
-                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4"
+                    "UN_ninfeo_3",
+                    "UN_ninfeo_4",
+                    "UN_ninfeo_2"
                 ]
             }
         },
@@ -52,16 +52,16 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_ninfeo_3",
-                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4"
+                    "UN_ninfeo_3",
+                    "UN_ninfeo_4",
+                    "UN_ninfeo_2"
                 ],
                 "a": [
-                    "UN_ninfeo_3",
-                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4"
+                    "UN_ninfeo_3",
+                    "UN_ninfeo_4",
+                    "UN_ninfeo_2"
                 ]
             }
         },
@@ -80,16 +80,16 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_ninfeo_3",
-                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4"
+                    "UN_ninfeo_3",
+                    "UN_ninfeo_4",
+                    "UN_ninfeo_2"
                 ],
                 "a": [
-                    "UN_ninfeo_3",
-                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4"
+                    "UN_ninfeo_3",
+                    "UN_ninfeo_4",
+                    "UN_ninfeo_2"
                 ]
             }
         },
@@ -108,14 +108,14 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4"
+                    "UN_ninfeo_4",
+                    "UN_ninfeo_2"
                 ],
                 "a": [
-                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4"
+                    "UN_ninfeo_4",
+                    "UN_ninfeo_2"
                 ]
             }
         },
@@ -134,14 +134,14 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4"
+                    "UN_ninfeo_4",
+                    "UN_ninfeo_2"
                 ],
                 "a": [
-                    "UN_ninfeo_2",
                     "UN_ninfeo_1",
-                    "UN_ninfeo_4"
+                    "UN_ninfeo_4",
+                    "UN_ninfeo_2"
                 ]
             }
         }
