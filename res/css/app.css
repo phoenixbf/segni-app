@@ -170,6 +170,8 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .panoListEntry {
+    opacity: 0.5;
+
     pointer-events: auto;
     display: inline-block;
     font-size: max(8px, 1vw);
@@ -192,12 +194,12 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .panoListEntry:hover {
+
+    opacity: 1.0;
 /*
-    font-size: larger;
-*/
     transform: scale(1.5);
     transform-origin: right;
-
+*/
     font-weight: bold;
 }
 
