@@ -81,7 +81,7 @@ APP.init = ()=>{
         APP.popupWelcome();
     });
 
-    $("#idPanoGeneral").hide();
+    //$("#idPanoGeneral").hide();
 
     APP.buildSUI();
 
@@ -257,7 +257,7 @@ APP.updatePanel = (semid)=>{
     if (S === undefined) return;
 
     $("#idPanel").show();
-    $("#idPanoGeneral").hide();
+    //$("#idPanoGeneral").hide();
     APP._bShowingPanel = true;
     //ATON._bPauseQuery  = true;
 
@@ -295,7 +295,7 @@ APP.updatePanel = (semid)=>{
 
     $("#idPanelClose").click(()=>{
         $("#idPanel").hide();
-        $("#idPanoGeneral").show();
+        //$("#idPanoGeneral").show();
         APP._bShowingPanel = false;
         ATON._bPauseQuery  = false;
 
@@ -313,7 +313,7 @@ APP.popupWelcome = ()=>{
 
     $("#btnOKwelcome").click(()=>{
         ATON.FE.popupClose();
-        $("#idPanoGeneral").show();
+        //$("#idPanoGeneral").show();
     });
 };
 
