@@ -11,7 +11,7 @@
     "network": [
         {
             "name": "Foro_01",
-            "title": "Untitled",
+            "title": "Al centro di Piazza Santa Maria",
             "pos": [
                 -19.06065559387207,
                 612.9871826171875,
@@ -29,7 +29,7 @@
         },
         {
             "name": "Foro_02",
-            "title": "Untitled",
+            "title": "Vista generale di P.zza Santa Maria",
             "pos": [
                 -30.032066345214844,
                 612.5618896484375,
@@ -47,7 +47,7 @@
         },
         {
             "name": "Foro_03",
-            "title": "Untitled",
+            "title": "Da v. Pietro Cossa",
             "pos": [
                 -35.30326461791992,
                 611.32861328125,
@@ -65,7 +65,7 @@
         },
         {
             "name": "Foro_04",
-            "title": "Untitled",
+            "title": "Vista laterale della chiesa",
             "pos": [
                 -21.5317325592041,
                 613.5166625976562,
@@ -83,7 +83,7 @@
         },
         {
             "name": "Foro_06",
-            "title": "Untitled",
+            "title": "Dal sagrato della chiesa",
             "pos": [
                 -0.8942420482635498,
                 616.4722290039062,
@@ -101,7 +101,7 @@
         },
         {
             "name": "Foro_07",
-            "title": "Untitled",
+            "title": "Risalendo la via per il Museo",
             "pos": [
                 11.045547485351562,
                 616.6264038085938,
@@ -119,7 +119,7 @@
         },
         {
             "name": "Foro_08",
-            "title": "Untitled",
+            "title": "Alla base delle scale della chiesa",
             "pos": [
                 -3.6083121299743652,
                 613.8103637695312,
@@ -137,7 +137,7 @@
         },
         {
             "name": "Foro_09",
-            "title": "Untitled",
+            "title": "Vista principale della piazza",
             "pos": [
                 -11.323417663574219,
                 613.3727416992188,
@@ -155,7 +155,7 @@
         },
         {
             "name": "Foro_11",
-            "title": "Untitled",
+            "title": "Vista frontale della chiesa",
             "pos": [
                 -5.003610610961914,
                 612.4000854492188,

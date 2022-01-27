@@ -11,7 +11,7 @@
     "network": [
         {
             "name": "Museo_01",
-            "title": "Untitled",
+            "title": "Di fronte al museo civico",
             "pos": [
                 30.572872161865234,
                 620.1248779296875,
@@ -23,7 +23,10 @@
                 0.0
             ],
             "semlist": {
-                "m": [],
+                "m": [
+                    "UN_Museo_1",
+                    "UN_Museo_2"
+                ],
                 "a": []
             }
         }
