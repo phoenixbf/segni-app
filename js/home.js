@@ -10,7 +10,10 @@ console.log(lang)
 let map = undefined;
 let markers = undefined;
 
-let extents = {};
+let extents = {
+    min: undefined,
+    max: undefined
+};
 
 const configList = [
     "01","02","03","04","05","06"
@@ -41,12 +44,21 @@ let loadConfig = (conf)=>{
         C[0] = shift[0] + P.pos[0];
         C[1] = shift[1] - P.pos[2];
 
-        if (extents.min === undefined) extents.min = C;
+        if (extents.min === undefined){
+            extents.min = [];
+            extents.min.push(C[0]);
+            extents.min.push(C[1]);
+        }
         else {
             if (C[0]<extents.min[0]) extents.min[0] = C[0];
             if (C[1]<extents.min[1]) extents.min[1] = C[1];
         }
-        if (extents.max === undefined) extents.max = C;
+
+        if (extents.max === undefined){
+            extents.max = [];
+            extents.max.push(C[0]);
+            extents.max.push(C[1]);
+        }
         else {
             if (C[0]>extents.max[0]) extents.max[0] = C[0];
             if (C[1]>extents.max[1]) extents.max[1] = C[1];
@@ -55,15 +67,30 @@ let loadConfig = (conf)=>{
         let marker = new ol.Feature({
             name: P.name,
             url: "c="+conf+"-"+lang + "&p="+idmain,
-            geometry: new ol.geom.Point( C )
+            geometry: new ol.geom.Point( C ),
+            label: data.title
         });
 
         let iconStyle = new ol.style.Style({
             image: new ol.style.Icon({
+                //anchor: [0.5, 0.5],
+                //src: "content/ui/loc.png",
                 anchor: [0.1, 0.5],
                 src: "content/ui/"+data.icon,
                 //color: places[i][3],
-            })
+            }),
+/*
+            text: new ol.style.Text({
+                font: '20px Calibri',
+                text: marker.get('label'),
+                placement: 'line',
+                fill: new ol.style.Fill({ color: '#000' }),
+                stroke: new ol.style.Stroke({
+                    color: '#fce4cf',
+                    width: 2
+                }),
+                offsetY: -35
+            })*/
         });
 
         marker.setStyle(iconStyle);
@@ -158,7 +185,7 @@ window.onload = ()=>{
             projection: 'EPSG:3004', //cproj,
             center: [0,0],
             //center: pins[0], //ol.proj.fromLonLat( segniLatLon ),
-            zoom: 18,
+            zoom: 16,
             //extent: [-572513.341856, 5211017.966314, 916327.095083, 6636950.728974],
         })
     });
