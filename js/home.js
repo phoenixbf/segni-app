@@ -73,15 +73,16 @@ let loadConfig = (conf)=>{
 
         let iconStyle = new ol.style.Style({
             image: new ol.style.Icon({
-                //anchor: [0.5, 0.5],
-                //src: "content/ui/loc.png",
-                anchor: [0.1, 0.5],
-                src: "content/ui/"+data.icon,
+                anchor: [0.5, 0.5],
+                src: "content/ui/loc.png",
+                //anchor: [0.1, 0.5],
+                //src: "content/ui/"+data.icon,
                 //color: places[i][3],
             }),
-/*
+
             text: new ol.style.Text({
-                font: '20px Calibri',
+                //font: '20px Calibri',
+                font: 'bold 20px Calibri',
                 text: marker.get('label'),
                 placement: 'line',
                 fill: new ol.style.Fill({ color: '#000' }),
@@ -90,7 +91,7 @@ let loadConfig = (conf)=>{
                     width: 2
                 }),
                 offsetY: -35
-            })*/
+            })
         });
 
         marker.setStyle(iconStyle);
