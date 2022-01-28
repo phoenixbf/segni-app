@@ -26,7 +26,7 @@
     width: auto;
     height: 30%;
 
-    padding: 20px;
+    padding: 30px;
 /*
     margin-top: 10px;
 
@@ -37,7 +37,7 @@
 
     /*overflow-y: scroll !important;*/
 
-    background-color: rgba(255,255,255, 0.7);
+    background-color: rgba(255,255,255, 0.8);
     /*background-color: rgba(252,228,207, 0.7);*/
     box-shadow: 0px 0px 20px white;
 
@@ -65,7 +65,7 @@
 */
     position: absolute;
     width: calc(100% - 40px);
-    height: 50%;
+    height: 80%;
 
     margin: auto;
 
