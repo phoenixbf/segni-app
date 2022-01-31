@@ -11,7 +11,7 @@
     "network": [
         {
             "name": "Porta_01",
-            "title": "Untitled",
+            "title": "All'esterno della citt\u00e0",
             "pos": [
                 -518.8472900390625,
                 580.4085693359375,
@@ -23,22 +23,19 @@
                 0.0
             ],
             "semlist": {
-                "Eta' contemporanea": [],
-                "Eta' moderna": [],
-                "Fine XVI secolo - Inizi XVII secolo": [],
-                "Prima meta' del XVI secolo": [],
-                "XV secolo rec": [],
-                "XV secolo": [],
-                "Prima meta' del XV secolo": [],
-                "Inizi XV seoclo": [],
-                "Fine XIV secolo": [],
-                "Seconda meta' del XIV secolo": [],
-                "Generico XIII secolo - Primi del XIV secolo": []
+                "m": [
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_1"
+                ],
+                "a": [
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_1"
+                ]
             }
         },
         {
             "name": "Porta_02",
-            "title": "Untitled",
+            "title": "Porta Saracena",
             "pos": [
                 -521.2083129882812,
                 579.3671875,
@@ -50,22 +47,19 @@
                 0.0
             ],
             "semlist": {
-                "Eta' contemporanea": [],
-                "Eta' moderna": [],
-                "Fine XVI secolo - Inizi XVII secolo": [],
-                "Prima meta' del XVI secolo": [],
-                "XV secolo rec": [],
-                "XV secolo": [],
-                "Prima meta' del XV secolo": [],
-                "Inizi XV seoclo": [],
-                "Fine XIV secolo": [],
-                "Seconda meta' del XIV secolo": [],
-                "Generico XIII secolo - Primi del XIV secolo": []
+                "m": [
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_1"
+                ],
+                "a": [
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_1"
+                ]
             }
         },
         {
             "name": "Porta_04",
-            "title": "Untitled",
+            "title": "Dentro la porta",
             "pos": [
                 -513.7098999023438,
                 579.3951416015625,
@@ -77,22 +71,19 @@
                 0.0
             ],
             "semlist": {
-                "Eta' contemporanea": [],
-                "Eta' moderna": [],
-                "Fine XVI secolo - Inizi XVII secolo": [],
-                "Prima meta' del XVI secolo": [],
-                "XV secolo rec": [],
-                "XV secolo": [],
-                "Prima meta' del XV secolo": [],
-                "Inizi XV seoclo": [],
-                "Fine XIV secolo": [],
-                "Seconda meta' del XIV secolo": [],
-                "Generico XIII secolo - Primi del XIV secolo": []
+                "m": [
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_1"
+                ],
+                "a": [
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_1"
+                ]
             }
         },
         {
             "name": "Porta_06",
-            "title": "Untitled",
+            "title": "Dentro la citt\u00e0",
             "pos": [
                 -511.0252380371094,
                 578.1634521484375,
@@ -104,17 +95,14 @@
                 0.0
             ],
             "semlist": {
-                "Eta' contemporanea": [],
-                "Eta' moderna": [],
-                "Fine XVI secolo - Inizi XVII secolo": [],
-                "Prima meta' del XVI secolo": [],
-                "XV secolo rec": [],
-                "XV secolo": [],
-                "Prima meta' del XV secolo": [],
-                "Inizi XV seoclo": [],
-                "Fine XIV secolo": [],
-                "Seconda meta' del XIV secolo": [],
-                "Generico XIII secolo - Primi del XIV secolo": []
+                "m": [
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_1"
+                ],
+                "a": [
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_1"
+                ]
             }
         }
     ],
