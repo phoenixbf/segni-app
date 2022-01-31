@@ -11,7 +11,7 @@
     "network": [
         {
             "name": "Porta_01",
-            "title": "All'esterno della citt\u00e0",
+            "title": "All'esterno della citta'",
             "pos": [
                 -518.8472900390625,
                 580.4085693359375,
@@ -83,7 +83,7 @@
         },
         {
             "name": "Porta_06",
-            "title": "Dentro la citt\u00e0",
+            "title": "Dentro la citta'",
             "pos": [
                 -511.0252380371094,
                 578.1634521484375,
