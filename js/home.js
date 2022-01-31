@@ -87,7 +87,7 @@ let loadConfig = (conf)=>{
                 placement: 'line',
                 fill: new ol.style.Fill({ color: '#000' }),
                 stroke: new ol.style.Stroke({
-                    color: '#fce4cf',
+                    color: '#fff', // '#fce4cf',
                     width: 2
                 }),
                 offsetY: -35

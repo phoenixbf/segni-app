@@ -308,11 +308,11 @@ APP.updatePanel = (semid)=>{
 
 APP.popupWelcome = ()=>{
     let htmlcontent = "<div class='atonPopupTitle'>"+APP.conf.title+"</div>";
-    htmlcontent += APP.conf.descr;
+    htmlcontent += "<div style='text-align:left'>"+APP.conf.descr+"</div>";
 
     htmlcontent += "<br><br><div id='btnOKwelcome' class='atonBTN atonBTN-horizontal atonBTN-text'>OK</div>";
 
-    if ( !ATON.FE.popupShow(htmlcontent) ) return;
+    if ( !ATON.FE.popupShow(htmlcontent, "atonPopupCompact") ) return;
 
     $("#btnOKwelcome").click(()=>{
         ATON.FE.popupClose();
