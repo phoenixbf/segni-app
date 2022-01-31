@@ -284,7 +284,7 @@ APP.updatePanel = (semid)=>{
     
 
     htmlcode += "<div class='atonPopupTitle'>"; // style='position:absolute; z-index:110; background-color:rgba(0,0,0, 0.8)'
-    htmlcode += "<div id='idPanelClose' class='atonBTN atonBTN-rec' style='float:left; margin:0px'>X</div>";
+    htmlcode += "<div id='idPanelClose' class='atonBTN' style='float:left; margin:0px; background-color: #bf7b37'>X</div>"; // atonBTN-rec
     //htmlcode += "<div id='idPanelPlayStop' class='atonBTN' style='float:left;margin:0px'>P</div>";
     htmlcode += S.title+"</div>";
 
@@ -480,7 +480,7 @@ APP.buildSUI = ()=>{
     APP.suiIndicator.scale.set(iconsize,iconsize,iconsize);
     APP.suiIndicator.add( APP.suiTelep );
 
-    APP.suiLabel = new ATON.SUI.Label(undefined, 0.5,0.1);
+    APP.suiLabel = new ATON.SUI.Label(undefined, 0.6,0.1);
     APP.suiLabel.setBaseColor( APP.bgColor );
     APP.suiLabel.setScale(iconsize*8.0).setPosition(0.0,0.9,0.0);
 
