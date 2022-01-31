@@ -5,13 +5,13 @@
         4617500.0
     ],
     "title": "Area del Ninfeo",
-    "descr": "\"All\u2019interno delle mura della citt\u00e0 si trova il ninfeo. Esso \u00e8 posizionato in un\u2019area che fu di fondamentale importanza nella storia urbanistica",
+    "descr": "All\u2019interno delle mura della citt\u00e0 si trova il ninfeo. Esso \u00e8 posizionato in un\u2019area che fu di fondamentale importanza nella storia urbanistica",
     "main": 0,
     "icon": "area-ninfeo.png",
     "network": [
         {
             "name": "Ninfeo 02",
-            "title": "Vista frontale del Ninfeo",
+            "title": "Vista frontale",
             "pos": [
                 -274.1108093261719,
                 550.8930053710938,
@@ -25,21 +25,21 @@
             "semlist": {
                 "m": [
                     "UN_ninfeo_1",
-                    "UN_ninfeo_3",
                     "UN_ninfeo_4",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_2",
+                    "UN_ninfeo_3"
                 ],
                 "a": [
                     "UN_ninfeo_1",
-                    "UN_ninfeo_3",
                     "UN_ninfeo_4",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_2",
+                    "UN_ninfeo_3"
                 ]
             }
         },
         {
             "name": "Ninfeo 03",
-            "title": "Untitled",
+            "title": "Vista laterale ",
             "pos": [
                 -270.1270751953125,
                 550.8513793945312,
@@ -67,7 +67,7 @@
         },
         {
             "name": "Ninfeo 04",
-            "title": "Untitled",
+            "title": "All'interno",
             "pos": [
                 -272.06243896484375,
                 549.2014770507812,
@@ -81,41 +81,15 @@
             "semlist": {
                 "m": [
                     "UN_ninfeo_1",
-                    "UN_ninfeo_3",
                     "UN_ninfeo_4",
-                    "UN_ninfeo_2"
-                ],
-                "a": [
-                    "UN_ninfeo_1",
-                    "UN_ninfeo_3",
-                    "UN_ninfeo_4",
-                    "UN_ninfeo_2"
-                ]
-            }
-        },
-        {
-            "name": "Ninfeo 07",
-            "title": "Untitled",
-            "pos": [
-                -276.09759521484375,
-                550.291015625,
-                -409.3744201660156
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [
-                    "UN_ninfeo_1",
-                    "UN_ninfeo_4",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_2",
+                    "UN_ninfeo_3"
                 ],
                 "a": [
                     "UN_ninfeo_1",
                     "UN_ninfeo_4",
-                    "UN_ninfeo_2"
+                    "UN_ninfeo_2",
+                    "UN_ninfeo_3"
                 ]
             }
         },
