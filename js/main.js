@@ -176,7 +176,8 @@ APP.loadConfig = (path)=>{
             for (let i in data.network){
                 let d = data.network[i];
 
-                $("#idPanoList").append("<div class='panoListEntry' onclick='ATON.XPFNetwork.requestTransitionByIndex("+i+")'>"+d.title+"<img src='content/ui/teleport.png'></div><br>");
+                // <img src='content/ui/teleport.png'>
+                $("#idPanoList").append("<div class='panoListEntry' onclick='ATON.XPFNetwork.requestTransitionByIndex("+i+")'>"+d.title+"</div><br>");
 
                 let xpf = new ATON.XPF();
 
