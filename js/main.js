@@ -87,10 +87,13 @@ APP.init = ()=>{
 
     // Materials
     APP._matSem   = ATON.MatHub.materials.semanticShape;
-    //APP._matSemHL = ATON.MatHub.materials.semanticShapeHL;
+    APP._matSemHL = ATON.MatHub.materials.semanticShapeHL;
+    
+    /*
     APP._matSemHL = ATON.MatHub.materials.defUI.clone();
     APP._matSemHL.uniforms.color.value = new THREE.Color(0,1,0.5);
     APP._matSemHL.uniforms.opacity.value = 0.4;
+    */
 
     // Load config
     APP.argConf = ATON.FE.urlParams.get('c');
