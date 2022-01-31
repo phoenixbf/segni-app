@@ -11,7 +11,7 @@
     "network": [
         {
             "name": "Acropoli_SPietro_01",
-            "title": "Di fronte alla chiesa di San Pietro",
+            "title": "Di fronte a San Pietro",
             "pos": [
                 143.0237579345703,
                 670.8226928710938,
@@ -23,11 +23,11 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [
+                "m": [
                     "UN_SanPietro_2",
                     "UN_SanPietro_1"
                 ],
-                "antico": []
+                "a": []
             }
         },
         {
@@ -44,16 +44,16 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [
+                "m": [
                     "UN_SanPietro_2",
                     "UN_SanPietro_1"
                 ],
-                "antico": []
+                "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_03",
-            "title": "San Pietro",
+            "title": "Davanti al portale",
             "pos": [
                 137.33863830566406,
                 670.7691650390625,
@@ -65,15 +65,15 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [
+                "m": [
                     "UN_SanPietro_2"
                 ],
-                "antico": []
+                "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_04",
-            "title": "San Pietro",
+            "title": "Il sagrato",
             "pos": [
                 147.9171905517578,
                 670.8320922851562,
@@ -85,16 +85,16 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [
+                "m": [
                     "UN_SanPietro_2",
                     "UN_SanPietro_1"
                 ],
-                "antico": []
+                "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_07",
-            "title": "San Pietro",
+            "title": "Via Pianillo",
             "pos": [
                 132.7771759033203,
                 667.490234375,
@@ -106,16 +106,16 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [
-                    "UN_SanPietro_1",
-                    "UN_SanPietro_3"
+                "m": [
+                    "UN_SanPietro_3",
+                    "UN_SanPietro_1"
                 ],
-                "antico": []
+                "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_08",
-            "title": "San Pietro",
+            "title": "La salita al sagrato",
             "pos": [
                 139.75343322753906,
                 667.807861328125,
@@ -127,16 +127,16 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [
-                    "UN_SanPietro_1",
-                    "UN_SanPietro_3"
+                "m": [
+                    "UN_SanPietro_3",
+                    "UN_SanPietro_1"
                 ],
-                "antico": []
+                "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_10",
-            "title": "San Pietro",
+            "title": "Vista generale della chiesa",
             "pos": [
                 134.66159057617188,
                 666.6394653320312,
@@ -148,17 +148,17 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [
+                "m": [
                     "UN_SanPietro_2",
                     "UN_SanPietro_1",
                     "UN_SanPietro_3"
                 ],
-                "antico": []
+                "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_11",
-            "title": "San Pietro",
+            "title": "Via Pianillo 2",
             "pos": [
                 128.59681701660156,
                 667.6868286132812,
@@ -170,13 +170,13 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [],
-                "antico": []
+                "m": [],
+                "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_14",
-            "title": "San Pietro",
+            "title": "Sulla salita al sagrato",
             "pos": [
                 134.14163208007812,
                 669.5715942382812,
@@ -188,13 +188,13 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [],
-                "antico": []
+                "m": [],
+                "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_15",
-            "title": "San Pietro",
+            "title": "Via Pianillo 3",
             "pos": [
                 123.47755432128906,
                 667.84375,
@@ -206,13 +206,13 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [],
-                "antico": []
+                "m": [],
+                "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_16",
-            "title": "San Pietro",
+            "title": "Via Pianillo 4",
             "pos": [
                 118.28775787353516,
                 667.8531494140625,
@@ -224,13 +224,13 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [],
-                "antico": []
+                "m": [],
+                "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_17",
-            "title": "San Pietro",
+            "title": "La cisterna 2",
             "pos": [
                 105.54170227050781,
                 668.5390014648438,
@@ -242,13 +242,13 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [],
-                "antico": []
+                "m": [],
+                "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_18",
-            "title": "San Pietro",
+            "title": "La cisterna 1",
             "pos": [
                 114.32894897460938,
                 667.9788208007812,
@@ -260,13 +260,13 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [],
-                "antico": []
+                "m": [],
+                "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_19",
-            "title": "San Pietro",
+            "title": "La cisterna 3",
             "pos": [
                 104.4297103881836,
                 669.81982421875,
@@ -278,8 +278,8 @@
                 0.0
             ],
             "semlist": {
-                "moderno": [],
-                "antico": []
+                "m": [],
+                "a": []
             }
         }
     ],
