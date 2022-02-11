@@ -24,8 +24,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_fororomano_1",
-                    "UN_fororomano_2"
+                    "UN_fororomano_2",
+                    "UN_fororomano_1"
                 ],
                 "a": []
             }
@@ -45,8 +45,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_fororomano_1",
-                    "UN_fororomano_2"
+                    "UN_fororomano_2",
+                    "UN_fororomano_1"
                 ],
                 "a": []
             }
@@ -66,8 +66,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_fororomano_1",
-                    "UN_fororomano_2"
+                    "UN_fororomano_2",
+                    "UN_fororomano_1"
                 ],
                 "a": []
             }
@@ -87,8 +87,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_fororomano_1",
-                    "UN_fororomano_2"
+                    "UN_fororomano_2",
+                    "UN_fororomano_1"
                 ],
                 "a": []
             }
@@ -108,8 +108,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_fororomano_1",
-                    "UN_fororomano_2"
+                    "UN_fororomano_2",
+                    "UN_fororomano_1"
                 ],
                 "a": []
             }
@@ -129,8 +129,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_fororomano_1",
-                    "UN_fororomano_2"
+                    "UN_fororomano_2",
+                    "UN_fororomano_1"
                 ],
                 "a": []
             }
@@ -150,8 +150,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_fororomano_1",
-                    "UN_fororomano_2"
+                    "UN_fororomano_2",
+                    "UN_fororomano_1"
                 ],
                 "a": []
             }
@@ -171,8 +171,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_fororomano_1",
-                    "UN_fororomano_2"
+                    "UN_fororomano_2",
+                    "UN_fororomano_1"
                 ],
                 "a": []
             }
@@ -192,8 +192,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_fororomano_1",
-                    "UN_fororomano_2"
+                    "UN_fororomano_2",
+                    "UN_fororomano_1"
                 ],
                 "a": []
             }
@@ -203,13 +203,13 @@
         "UN_fororomano_1": {
             "title": "Grandi terrazzamenti",
             "descr": "Resti di alcuni dei grandi terrazzamenti su cui venne impostata la piazza, sono ancora visibili nell'adiacente piazza <b>Pericle Felici</b>.\n<br>Tali resti testimoniano l\u2019accurata progettazione che sottostava a tali opere. \n<br>La piazza vera e propria probabilmente doveva trovarsi nello spazio oggi occupato dalla <b>Cattedrale di Santa Maria Assunta</b>, edificata nel XVII secolo che vedi ora dinanzi a te, nella sua magnificenza.\n",
-            "cover": "",
+            "cover": "foro1.jpg",
             "audio": ""
         },
         "UN_fororomano_2": {
             "title": "Il Foro nel Medioevo",
             "descr": "In et\u00e0 medievale,  la piazza continu\u00f2 a costituire il <b>fulcro della vita cittadina</b>, modificando per\u00f2 il suo assetto interno e ospitando i complessi architettonici che erano l\u2019espressione della societ\u00e0 dell\u2019epoca. \n<br>Di fondamentale importanza per comprendere l\u2019assetto dell\u2019area in epoca antica e medievale, sono stati i risultati della campagna di scavo 2012-2014, denominata <b>Segni Project</b> svolta con la preziosa collaborazione della <b>British School at Rome</b>, proprio nel quadrante collocato oggi di fronte al bar.",
-            "cover": "foro1.jpg",
+            "cover": "foro3.jpg",
             "audio": ""
         }
     }
