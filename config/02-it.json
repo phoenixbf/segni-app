@@ -10,6 +10,131 @@
     "icon": "area-acropoli.png",
     "network": [
         {
+            "name": "Acropoli_SPietro_01",
+            "title": "Di fronte alla chiesa di San Pietro",
+            "pos": [
+                143.0237579345703,
+                670.8226928710938,
+                -499.3877868652344
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [
+                    "UN_SanPietro_1",
+                    "UN_SanPietro_2"
+                ],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_02",
+            "title": "Il portale della chiesa",
+            "pos": [
+                139.37998962402344,
+                670.5765380859375,
+                -506.5868225097656
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [
+                    "UN_SanPietro_1",
+                    "UN_SanPietro_2"
+                ],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_03",
+            "title": "San Pietro",
+            "pos": [
+                137.33863830566406,
+                670.7691650390625,
+                -511.3632507324219
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [
+                    "UN_SanPietro_2"
+                ],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_04",
+            "title": "San Pietro",
+            "pos": [
+                147.9171905517578,
+                670.8320922851562,
+                -510.36981201171875
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [
+                    "UN_SanPietro_1",
+                    "UN_SanPietro_2"
+                ],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_07",
+            "title": "San Pietro",
+            "pos": [
+                132.7771759033203,
+                667.490234375,
+                -480.8262939453125
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [
+                    "UN_SanPietro_1",
+                    "UN_SanPietro_3"
+                ],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_08",
+            "title": "San Pietro",
+            "pos": [
+                139.75343322753906,
+                667.807861328125,
+                -483.8337707519531
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [
+                    "UN_SanPietro_1",
+                    "UN_SanPietro_3"
+                ],
+                "a": []
+            }
+        },
+        {
             "name": "Acropoli_SPietro_10",
             "title": "San Pietro",
             "pos": [
@@ -28,6 +153,132 @@
                     "UN_SanPietro_3",
                     "UN_SanPietro_2"
                 ],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_11",
+            "title": "San Pietro",
+            "pos": [
+                128.59681701660156,
+                667.6868286132812,
+                -493.3753356933594
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_14",
+            "title": "San Pietro",
+            "pos": [
+                134.14163208007812,
+                669.5715942382812,
+                -499.2643737792969
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_15",
+            "title": "San Pietro",
+            "pos": [
+                123.47755432128906,
+                667.84375,
+                -500.3470458984375
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_16",
+            "title": "San Pietro",
+            "pos": [
+                118.28775787353516,
+                667.8531494140625,
+                -511.2952880859375
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_17",
+            "title": "San Pietro",
+            "pos": [
+                105.54170227050781,
+                668.5390014648438,
+                -545.5233764648438
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_18",
+            "title": "San Pietro",
+            "pos": [
+                114.32894897460938,
+                667.9788208007812,
+                -537.7156982421875
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_19",
+            "title": "San Pietro",
+            "pos": [
+                104.4297103881836,
+                669.81982421875,
+                -555.406982421875
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [],
                 "a": []
             }
         }
