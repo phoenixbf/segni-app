@@ -10,133 +10,8 @@
     "icon": "area-acropoli.png",
     "network": [
         {
-            "name": "Acropoli_SPietro_01",
-            "title": "Di fronte a San Pietro",
-            "pos": [
-                143.0237579345703,
-                670.8226928710938,
-                -499.3877868652344
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [
-                    "UN_SanPietro_1",
-                    "UN_SanPietro_2"
-                ],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_02",
-            "title": "Il portale della chiesa",
-            "pos": [
-                139.37998962402344,
-                670.5765380859375,
-                -506.5868225097656
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [
-                    "UN_SanPietro_1",
-                    "UN_SanPietro_2"
-                ],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_03",
-            "title": "Davanti al portale",
-            "pos": [
-                137.33863830566406,
-                670.7691650390625,
-                -511.3632507324219
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [
-                    "UN_SanPietro_2"
-                ],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_04",
-            "title": "Il sagrato",
-            "pos": [
-                147.9171905517578,
-                670.8320922851562,
-                -510.36981201171875
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [
-                    "UN_SanPietro_1",
-                    "UN_SanPietro_2"
-                ],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_07",
-            "title": "Via Pianillo",
-            "pos": [
-                132.7771759033203,
-                667.490234375,
-                -480.8262939453125
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [
-                    "UN_SanPietro_3",
-                    "UN_SanPietro_1"
-                ],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_08",
-            "title": "La salita al sagrato",
-            "pos": [
-                139.75343322753906,
-                667.807861328125,
-                -483.8337707519531
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [
-                    "UN_SanPietro_3",
-                    "UN_SanPietro_1"
-                ],
-                "a": []
-            }
-        },
-        {
             "name": "Acropoli_SPietro_10",
-            "title": "Vista generale della chiesa",
+            "title": "San Pietro",
             "pos": [
                 134.66159057617188,
                 666.6394653320312,
@@ -149,136 +24,10 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_SanPietro_3",
                     "UN_SanPietro_1",
+                    "UN_SanPietro_3",
                     "UN_SanPietro_2"
                 ],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_11",
-            "title": "Via Pianillo 2",
-            "pos": [
-                128.59681701660156,
-                667.6868286132812,
-                -493.3753356933594
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_14",
-            "title": "Sulla salita al sagrato",
-            "pos": [
-                134.14163208007812,
-                669.5715942382812,
-                -499.2643737792969
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_15",
-            "title": "Via Pianillo 3",
-            "pos": [
-                123.47755432128906,
-                667.84375,
-                -500.3470458984375
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_16",
-            "title": "Via Pianillo 4",
-            "pos": [
-                118.28775787353516,
-                667.8531494140625,
-                -511.2952880859375
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_17",
-            "title": "La cisterna 2",
-            "pos": [
-                105.54170227050781,
-                668.5390014648438,
-                -545.5233764648438
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_18",
-            "title": "La cisterna 1",
-            "pos": [
-                114.32894897460938,
-                667.9788208007812,
-                -537.7156982421875
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_19",
-            "title": "La cisterna 3",
-            "pos": [
-                104.4297103881836,
-                669.81982421875,
-                -555.406982421875
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [],
                 "a": []
             }
         }
@@ -287,7 +36,7 @@
         "UN_SanPietro_1": {
             "title": "La chiesa di San Pietro",
             "descr": "La struttura che hai dinanzi guardando la chiesa di S.Pietro, con la grande facciata e la larga scalinata, \u00e8 il risultato finale di una <b>lunga serie di interventi</b>, di cui spesso non \u00e8 possibile rintracciare le varie fasi. \n<br>Una generale <b>riorganizzazione architettonica</b> si \u00e8 individuata nel <b>tardo II secolo a.C. </b>, che ha conferito all\u2019acropoli di Segni i caratteri propri delle maggiori architetture del tardo ellenismo.",
-            "cover": "",
+            "cover": "Acropoli1.jpg",
             "audio": ""
         },
         "UN_SanPietro_2": {
@@ -311,25 +60,25 @@
         "UN_SanPietro_4": {
             "title": "Il castrum medievale",
             "descr": "Nel <b>Medioevo</b> l\u2019area dell\u2019acropoli acquisisce un ruolo prettamente strategico, in virt\u00f9 del fatto che era il luogo pi\u00f9 incline a essere <b>fortificato<b> e quello maggiormente <b>difendibile</b>. \n<br>La sistemazione di questo spazio, detto anche  <i>castrum</i>, sulla parte alta della citt\u00e0 risale gi\u00e0 ai primi secoli dell'Alto Medioevo e si accentua ancora di pi\u00f9 nel <b>XII \u2013 XIII secolo</b>.\n<br> In questo periodo il Papa Eugenio III fece costruire in quest'area un palazzo, oggi occupato dal complesso dell\u2019 <b>ex Seminario Vescovile</b>.",
-            "cover": "",
+            "cover": "Acropoli3.jpg",
             "audio": ""
         },
         "UN_cisterna_1": {
             "title": "La Cisterna",
             "descr": "Caro viaggiatore, ti trovi nella <b>parte alta della citt\u00e0</b> a cui si arriva, come avrai probabilmente fatto, tramite un percorso sterrato su Via Pianillo, oppure attraversando i vicoli del centro citt\u00e0.\n<br>Dinanzi a te trovi la cisterna, una <b>grande vasca collocata alle spalle della Chiesa di S. Pietro</b> e prospiciente il terrazzamento naturale della collina.",
-            "cover": "",
+            "cover": "Acropoli4.jpg",
             "audio": ""
         },
         "UN_cisterna_2": {
             "title": "Una vasca circolare",
             "descr": "La grande vasca circolare che vedi dinanzi a te, larga pi\u00f9 o meno quanto il podio del tempio e posta immediatamente alle sue spalle, \u00e8 uno dei <b>primissimi esempi di <i>opus signinum</i></b>: un modo di costruire le cisterne \u201calla maniera di Segni\u201d, ben descritto da <b>Vitruvio</b>. \n<br>La grande vasca funzionava da <b>bacino di raccolta dell\u2019acqua piovana</b> del grande complesso pubblico dell\u2019acropoli, cos\u00ec come gli <i>impluvia</i> delle <i>domus</i> o delle <i>villae</i> romane.",
-            "cover": "",
+            "cover": "Acropoli2.jpg",
             "audio": ""
         },
         "UN_Tempio_2": {
             "title": "Il tetto del tempio",
             "descr": "L\u2019intero tetto del tempio, era interamente decorato con <b>coloratissime terrecotte architettoniche</b>. \n<br>Nel <b>Museo Archeologico Comunale di Segni</b> sono conservati alcuni esemplari di questi meravigliosi manufatti, sia appartenenti al tempio arcaico, sia pertinenti al pi\u00f9 grande tempio di II secolo a.C. \n<br>Ti invito a visitarlo dopo questo giro all\u2019aperto, caro viaggiatore se non l'hai gi\u00e0 fatto!",
-            "cover": "",
+            "cover": "Acropoli5.jpg",
             "audio": ""
         }
     }
