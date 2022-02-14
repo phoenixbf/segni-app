@@ -115,6 +115,8 @@ APP.init = ()=>{
         let p = path + rf + APP.currperiod + ".jpg";
         return p;
     });
+
+    ATON.FE.addBasicLoaderEvents();
 };
 
 APP.switchToPeriod = (pname)=>{
@@ -339,7 +341,7 @@ APP.setupEvents = ()=>{
         console.log("All nodes loaded");
         APP.filterSemantics();
     });
-
+/*
     ATON.on("SemanticNodeLeave", (semid)=>{
         let S = ATON.getSemanticNode(semid);
         if (S) S.restoreDefaultMaterial();
@@ -357,7 +359,7 @@ APP.setupEvents = ()=>{
 
         //console.log(semid);
     });
-
+*/
     ATON.on("Tap", (e)=>{
         if (ATON._bPauseQuery) return;
 

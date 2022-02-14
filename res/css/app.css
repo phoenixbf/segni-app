@@ -241,6 +241,10 @@ input[type=range]::-webkit-slider-thumb {
     background-color: rgba(12, 40, 64, 0.8);
 }
 
+.atonPopupLabel {
+    background-color: rgba(12, 40, 64, 0.5);
+}
+
 .atonBTN {
     background-color: rgba(12, 40, 64, 0.5);
 }
