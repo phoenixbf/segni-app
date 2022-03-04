@@ -314,12 +314,26 @@ APP.popupWelcome = ()=>{
     htmlcontent += "<div style='text-align:left'>"+APP.conf.descr+"</div>";
 
     htmlcontent += "<br><br><div id='btnOKwelcome' class='atonBTN atonBTN-horizontal atonBTN-text'>OK</div>";
+    if (ATON.Utils.isConnectionSecure() && ATON.Utils.isMobile()){
+        htmlcontent += "<div id='btnDOri' class='atonBTN atonBTN-horizontal atonBTN-white'><img src='"+ATON.FE.PATH_RES_ICONS+"devori.png"+"'></div>";
+    }
 
     if ( !ATON.FE.popupShow(htmlcontent, "atonPopupCompact") ) return;
 
     $("#btnOKwelcome").click(()=>{
         ATON.FE.popupClose();
         //$("#idPanoGeneral").show();
+    });
+
+    $("#btnDOri").click(()=>{
+        if (ATON.Nav.isDevOri()){
+            ATON.Nav.setFirstPersonControl();
+        }
+        else {
+            ATON.Nav.setDeviceOrientationControl();
+        }
+
+        ATON.FE.popupClose();
     });
 };
 
