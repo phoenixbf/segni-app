@@ -71,7 +71,7 @@
         }
 }
 
-/* STD font: segoe UI */
+/* Fonts */
 /*
 @font-face {
     font-family: 'Segoe UI Local';
@@ -85,6 +85,8 @@
     font-weight: 300;
     font-style: normal;
 */
+
+/*
 @font-face {
     font-family: 'Titillium Web';
     font-style: normal;
@@ -92,21 +94,23 @@
     src: url(https://fonts.gstatic.com/s/titilliumweb/v14/NaPecZTIAOhVxoMyOr9n_E7fdM3mDbRS.woff2) format('woff2');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
   }
-  /* latin */
-  @font-face {
+
+@font-face {
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/titilliumweb/v14/NaPecZTIAOhVxoMyOr9n_E7fdMPmDQ.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+}
+*/
+@font-face {
+    font-family: 'AFont';
+    font-style: normal;
+    src: url(../fonts/TitilliumWeb-Regular.ttf);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 /*=========================================================*/
-
-html {
-    --scrollbarBG: #333333;
-    --thumbBG: #ffffff;
-}
 
 body {
     margin: 0px;
@@ -124,14 +128,14 @@ body {
 
     /*font-family: Tahoma, Verdana, Geneva;*/
     /*font-family: 'Segoe UI Local', 'Segoe UI Web (West European)';*/
-    font-family: 'Titillium Web';
+    font-family: "AFont";
 
     touch-action: none;
     -webkit-user-drag: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
     scrollbar-width: thin;
-    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+    scrollbar-color: #FFF #333;
 }
 
 a {
@@ -439,6 +443,14 @@ canvas:active {
 */
 }
 
+.atonCenterItem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
 /* Spinner/Loader */
 .atonCenterLoader {
     position: fixed;
@@ -533,9 +545,11 @@ canvas:active {
 }
 .atonCover img {
     border-radius: 15px;
+    transition: all .1s ease-in-out;
 }
 .atonCover img:hover {
     box-shadow: 0 0px 10px rgba(255, 255, 255, 1.0);
+    transform: scale(1.1);
 }
 
 .atonBlurBG {
@@ -716,20 +730,27 @@ canvas:active {
     */
 }
 
+.atonBTN span {
+    padding: 0 5px;
+}
+
 .atonSmallIcon {
     height: 16px;
     width: 16px;
     vertical-align: middle;
+    margin: 4px;
 }
 .atonDefIcon {
     height: 32px;
     width: 32px;
     vertical-align: middle;
+    margin: 4px;
 }
 .atonBigIcon {
     height: 64px;
     width: 64px;
     vertical-align: middle;
+    margin: 8px;
 }
 
 .atonBTN-large {
@@ -885,13 +906,17 @@ canvas:active {
 .atonVRCcounter {
     position: absolute; 
     z-index: 2; 
-    margin-left: -18px;
-    margin-top: 3px;
+    /*margin-left: -22px;
+    margin-top: 5px;*/
+    margin: 0px;
+    padding: 0px;
+
+    transform: translate(-150%,10%);
 
     text-align: center;
     text-shadow: 0px 0px 4px black;
 
-    font-size: 70%;
+    font-size: 60%;
 }
 
 .atonVRCchat {
@@ -902,6 +927,30 @@ canvas:active {
 
     overflow-y: auto;
     height: 80%;
+}
+
+.atonVRCchatBox {
+    width: 100%;
+    height: 200px;
+
+    display: block;
+
+    /*background-color: rgba(255,255,255, 0.5);*/
+
+    padding: 4px;
+
+    text-align:left;
+    text-shadow: 0px 0px 4px black;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*white-space: nowrap;*/
+
+    -webkit-overflow-scrolling: touch;
+}
+
+.atonVRCchatMessage {
+    display: block;
 }
 
 .atonVRCchatBlock {
@@ -989,6 +1038,42 @@ canvas:active {
     background-color: rgba(255, 0, 255, 0.1);
 }
 
+.atonVRCchatUsername {
+    display: inline-block;
+    padding: 4px;
+    margin-top: 3px;
+
+    box-shadow: none;
+    border-radius: 4px;
+
+    padding-right: 10px;
+    padding-left: 10px;
+
+    cursor: pointer;
+}
+
+.atonVRCvidStream {
+    position: fixed;
+    z-index: 150;
+
+    display: inline-block;
+    cursor: pointer;
+
+    width: 120px;
+    height: auto;
+
+    left: 8px;
+    top: 55px;
+
+    border-radius: 5px;
+}
+
+/*
+.atonVRCvidStream:hover {
+    transform: scale(1.2);
+}
+*/
+
 /*
 @media only screen and (max-width: 800px){
     .atonVRCsidePanel {
@@ -997,6 +1082,19 @@ canvas:active {
 
 }
 */
+
+.atonScreenshotContainer {
+    max-width: 300px;
+    padding: 0px;
+    margin: auto;
+}
+
+.atonScreenshotContainer img {
+    width: 100%;
+    height: auto;
+
+    border-radius: 5px;
+}
 
 /*
     Popups
@@ -1062,7 +1160,7 @@ canvas:active {
 }
 
 .atonPopupLarge {
-    width: 80%;
+    width: 90%;
 }
 @media screen and (orientation: portrait){
     /*@media screen and (max-width: 800px){*/
@@ -1194,7 +1292,7 @@ canvas:active {
 
     box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
 
-    backdrop-filter: blur(6px);
+    /*backdrop-filter: blur(6px);*/
 
     padding: 12px;
     margin: 0px;
@@ -1209,22 +1307,23 @@ canvas:active {
 /*
     Scrollbars
 ==========================*/
-::-webkit-scrollbar {
+*::-webkit-scrollbar {
     width: 6px;
     height: 6px;
 }
-::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 0, 0.2);
     border-left: 0px solid #000;
     border-radius: 4px;
 }
-::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background-color: #FFF;
     border-radius: 4px;
+    box-shadow: 0px 0px 2px black;
 }
-::-webkit-scrollbar-thumb:hover {
+*::-webkit-scrollbar-thumb:hover {
     background-color: #FFF;
-    box-shadow: 0px 0px 10px rgba(255,255,255, 0.9);
+    box-shadow: 0px 0px 4px rgba(255,255,255, 0.9);
 }
 
 
@@ -1570,6 +1669,7 @@ code {
 
     color: white;
     font-family: monospace;
+    font-size: smaller;
     background-color: rgba(0,0,0, 0.5);
 
     padding: 7px;
@@ -1583,7 +1683,8 @@ code {
     background-color: #BBB;
     color: #FFF;
 
-    font-family: 'Titillium Web'; /*'Segoe UI Local', 'Segoe UI Web (West European)';*/
+    /*font-family: 'Titillium Web';*/ /*'Segoe UI Local', 'Segoe UI Web (West European)';*/
+    font-family: "AFont";
 
     background-image: url("../bg.jpg");
 
@@ -1618,6 +1719,8 @@ label {
 .shuTopToobar {
     background-color: rgba(0,0,0, 0.8);
     box-shadow: 0px 0px 15px rgba(0,0,0, 1);
+
+    backdrop-filter: blur(6px);
 }
 
 .shuBlockNode {
@@ -1627,10 +1730,12 @@ label {
     padding: 5px;
     border-radius: 20px;
 
+    width: 90%;
+
     max-width: 500px;
     min-width: 250px;
     
-    margin: 10px;
+    margin: auto;
     
     /*float: left; */
 
@@ -1654,6 +1759,8 @@ label {
 
     background-color:rgba(0,0,0, 0.4);
     box-shadow: 0px 0px 20px rgba(0,0,0, 0.5);
+
+    backdrop-filter: blur(6px);
 }
 
 .atonTitle {
@@ -1682,6 +1789,12 @@ label {
     height: 100%;
 
     margin: 0px;
+}
+
+.atonHeader {
+    display: block;
+    margin: 10px;
+    color: black;
 }
 
 .atonBlockTitle {
@@ -1862,9 +1975,16 @@ td {
     padding: 5px;
 }
 
+details {
+    text-align: left;
+    padding: 5px;
+}
+
 summary {
     cursor: pointer;
-    padding: 5px;
+
+    padding-bottom: 5px;
+    padding-top: 5px;
 
     -moz-user-select: none;
     -khtml-user-select: none;
@@ -1880,3 +2000,50 @@ video::-webkit-media-controls-start-playback-button {
     pointer-events: none;
     width: 5px;
 }
+
+/* Landing page */
+/*
+#idScenes {
+    width:50%;
+    max-width:500px;
+    margin: 1rem auto;
+}
+
+#sid {
+    width: 80%;
+    display:inline-block;
+}
+
+#go-btn {
+    width: 15%;
+    display: inline-block;
+}
+
+#atonLogo {
+	width: 100px;
+	height: auto;
+	display: block;
+	margin: 1rem auto;
+}
+*/
+.landing-nav {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+}
+    
+.landing-nav a {
+    display: inline-block;
+}
+
+/*
+a[href="/examples"] {
+    background-image: url('/res/icons/samples.png');
+    background-size: contain;
+}
+
+a[href="/shu/scenes"] {
+    background-image: url('/res/icons/user.png');
+    background-size: contain;
+}
+*/
