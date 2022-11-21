@@ -46,8 +46,8 @@
             "semlist": {
                 "m": [
                     "UN_SanPietro_1",
-                    "UN_SanPietro_2",
-                    "UN_SanPietro_4"
+                    "UN_SanPietro_4",
+                    "UN_SanPietro_2"
                 ],
                 "a": []
             }
@@ -67,8 +67,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_SanPietro_2",
-                    "UN_SanPietro_4"
+                    "UN_SanPietro_4",
+                    "UN_SanPietro_2"
                 ],
                 "a": []
             }
@@ -89,8 +89,8 @@
             "semlist": {
                 "m": [
                     "UN_SanPietro_1",
-                    "UN_SanPietro_2",
-                    "UN_SanPietro_4"
+                    "UN_SanPietro_4",
+                    "UN_SanPietro_2"
                 ],
                 "a": []
             }
@@ -111,9 +111,9 @@
             "semlist": {
                 "m": [
                     "UN_SanPietro_1",
+                    "UN_SanPietro_4",
                     "UN_Tempio_1",
-                    "UN_SanPietro_3",
-                    "UN_SanPietro_4"
+                    "UN_SanPietro_3"
                 ],
                 "a": [
                     "UN_Tempio_1"
@@ -245,14 +245,14 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_Tempio_1",
-                    "UN_cisterna_1",
                     "UN_cisterna_2",
-                    "UN_Tempio_2"
+                    "UN_Tempio_2",
+                    "UN_cisterna_1",
+                    "UN_Tempio_1"
                 ],
                 "a": [
-                    "UN_Tempio_1",
-                    "UN_Tempio_2"
+                    "UN_Tempio_2",
+                    "UN_Tempio_1"
                 ]
             }
         },
@@ -271,9 +271,9 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_Tempio_1",
+                    "UN_cisterna_2",
                     "UN_cisterna_1",
-                    "UN_cisterna_2"
+                    "UN_Tempio_1"
                 ],
                 "a": [
                     "UN_Tempio_1"
@@ -295,14 +295,14 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_Tempio_1",
-                    "UN_cisterna_1",
                     "UN_cisterna_2",
-                    "UN_Tempio_2"
+                    "UN_Tempio_2",
+                    "UN_cisterna_1",
+                    "UN_Tempio_1"
                 ],
                 "a": [
-                    "UN_Tempio_1",
-                    "UN_Tempio_2"
+                    "UN_Tempio_2",
+                    "UN_Tempio_1"
                 ]
             }
         }
@@ -333,7 +333,7 @@
             "audio": ""
         },
         "UN_SanPietro_4": {
-            "title": "Il castrum medievale",
+            "title": "Il <em>castrum</em> medievale",
             "descr": "Nel <b>Medioevo</b> l\u2019area dell\u2019acropoli acquisisce un ruolo prettamente strategico, in virt\u00f9 del fatto che era il luogo pi\u00f9 incline a essere <b>fortificato<b> e quello maggiormente <b>difendibile</b>. \n<br>La sistemazione di questo spazio, detto anche  <i>castrum</i>, sulla parte alta della citt\u00e0 risale gi\u00e0 ai primi secoli dell'Alto Medioevo e si accentua ancora di pi\u00f9 nel <b>XII \u2013 XIII secolo</b>.\n<br> In questo periodo il Papa Eugenio III fece costruire in quest'area un palazzo, oggi occupato dal complesso dell\u2019 <b>ex Seminario Vescovile</b>.",
             "cover": "Acropoli3.jpg",
             "audio": ""
