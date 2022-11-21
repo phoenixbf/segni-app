@@ -32,7 +32,7 @@
         },
         {
             "name": "Acropoli_SPietro_02",
-            "title": "Il portale della chiesa",
+            "title": "La zona centrale del pronao",
             "pos": [
                 139.37998962402344,
                 670.5765380859375,
@@ -46,14 +46,15 @@
             "semlist": {
                 "m": [
                     "UN_SanPietro_1",
-                    "UN_SanPietro_2"
+                    "UN_SanPietro_2",
+                    "UN_SanPietro_4"
                 ],
                 "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_03",
-            "title": "San Pietro",
+            "title": "Di fronte al portale della chiesa",
             "pos": [
                 137.33863830566406,
                 670.7691650390625,
@@ -66,14 +67,15 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_SanPietro_2"
+                    "UN_SanPietro_2",
+                    "UN_SanPietro_4"
                 ],
                 "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_04",
-            "title": "San Pietro",
+            "title": "Lato destro del pronao",
             "pos": [
                 147.9171905517578,
                 670.8320922851562,
@@ -87,14 +89,15 @@
             "semlist": {
                 "m": [
                     "UN_SanPietro_1",
-                    "UN_SanPietro_2"
+                    "UN_SanPietro_2",
+                    "UN_SanPietro_4"
                 ],
                 "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_07",
-            "title": "San Pietro",
+            "title": "Vista generale",
             "pos": [
                 132.7771759033203,
                 667.490234375,
@@ -108,14 +111,18 @@
             "semlist": {
                 "m": [
                     "UN_SanPietro_1",
-                    "UN_SanPietro_3"
+                    "UN_Tempio_1",
+                    "UN_SanPietro_3",
+                    "UN_SanPietro_4"
                 ],
-                "a": []
+                "a": [
+                    "UN_Tempio_1"
+                ]
             }
         },
         {
             "name": "Acropoli_SPietro_08",
-            "title": "San Pietro",
+            "title": "Di fronte alle scale",
             "pos": [
                 139.75343322753906,
                 667.807861328125,
@@ -136,7 +143,7 @@
         },
         {
             "name": "Acropoli_SPietro_10",
-            "title": "San Pietro",
+            "title": "Vista da lontano",
             "pos": [
                 134.66159057617188,
                 666.6394653320312,
@@ -150,15 +157,15 @@
             "semlist": {
                 "m": [
                     "UN_SanPietro_1",
-                    "UN_SanPietro_3",
-                    "UN_SanPietro_2"
+                    "UN_SanPietro_2",
+                    "UN_SanPietro_3"
                 ],
                 "a": []
             }
         },
         {
             "name": "Acropoli_SPietro_11",
-            "title": "San Pietro",
+            "title": "Lato sinistro del podio",
             "pos": [
                 128.59681701660156,
                 667.6868286132812,
@@ -170,13 +177,18 @@
                 0.0
             ],
             "semlist": {
-                "m": [],
-                "a": []
+                "m": [
+                    "UN_SanPietro_1",
+                    "UN_Tempio_1"
+                ],
+                "a": [
+                    "UN_Tempio_1"
+                ]
             }
         },
         {
             "name": "Acropoli_SPietro_14",
-            "title": "San Pietro",
+            "title": "Lato sinistro del pronao",
             "pos": [
                 134.14163208007812,
                 669.5715942382812,
@@ -188,13 +200,17 @@
                 0.0
             ],
             "semlist": {
-                "m": [],
-                "a": []
+                "m": [
+                    "UN_Tempio_1"
+                ],
+                "a": [
+                    "UN_Tempio_1"
+                ]
             }
         },
         {
             "name": "Acropoli_SPietro_15",
-            "title": "San Pietro",
+            "title": "Fianco del podio",
             "pos": [
                 123.47755432128906,
                 667.84375,
@@ -206,31 +222,17 @@
                 0.0
             ],
             "semlist": {
-                "m": [],
-                "a": []
-            }
-        },
-        {
-            "name": "Acropoli_SPietro_16",
-            "title": "San Pietro",
-            "pos": [
-                118.28775787353516,
-                667.8531494140625,
-                -511.2952880859375
-            ],
-            "rot": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "semlist": {
-                "m": [],
-                "a": []
+                "m": [
+                    "UN_Tempio_1"
+                ],
+                "a": [
+                    "UN_Tempio_1"
+                ]
             }
         },
         {
             "name": "Acropoli_SPietro_17",
-            "title": "San Pietro",
+            "title": "A lato della cisterna",
             "pos": [
                 105.54170227050781,
                 668.5390014648438,
@@ -242,13 +244,21 @@
                 0.0
             ],
             "semlist": {
-                "m": [],
-                "a": []
+                "m": [
+                    "UN_Tempio_1",
+                    "UN_cisterna_1",
+                    "UN_cisterna_2",
+                    "UN_Tempio_2"
+                ],
+                "a": [
+                    "UN_Tempio_1",
+                    "UN_Tempio_2"
+                ]
             }
         },
         {
             "name": "Acropoli_SPietro_18",
-            "title": "San Pietro",
+            "title": "Tra cisterna e chiesa",
             "pos": [
                 114.32894897460938,
                 667.9788208007812,
@@ -260,13 +270,19 @@
                 0.0
             ],
             "semlist": {
-                "m": [],
-                "a": []
+                "m": [
+                    "UN_Tempio_1",
+                    "UN_cisterna_1",
+                    "UN_cisterna_2"
+                ],
+                "a": [
+                    "UN_Tempio_1"
+                ]
             }
         },
         {
             "name": "Acropoli_SPietro_19",
-            "title": "San Pietro",
+            "title": "Dietro la cisterna",
             "pos": [
                 104.4297103881836,
                 669.81982421875,
@@ -278,8 +294,16 @@
                 0.0
             ],
             "semlist": {
-                "m": [],
-                "a": []
+                "m": [
+                    "UN_Tempio_1",
+                    "UN_cisterna_1",
+                    "UN_cisterna_2",
+                    "UN_Tempio_2"
+                ],
+                "a": [
+                    "UN_Tempio_1",
+                    "UN_Tempio_2"
+                ]
             }
         }
     ],
