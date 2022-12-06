@@ -24,8 +24,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_SanPietro_1",
-                    "UN_SanPietro_2"
+                    "UN_SanPietro_2",
+                    "UN_SanPietro_1"
                 ],
                 "a": []
             }
@@ -45,9 +45,9 @@
             ],
             "semlist": {
                 "m": [
+                    "UN_SanPietro_2",
                     "UN_SanPietro_1",
-                    "UN_SanPietro_4",
-                    "UN_SanPietro_2"
+                    "UN_SanPietro_4"
                 ],
                 "a": []
             }
@@ -67,8 +67,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_SanPietro_4",
-                    "UN_SanPietro_2"
+                    "UN_SanPietro_2",
+                    "UN_SanPietro_4"
                 ],
                 "a": []
             }
@@ -88,9 +88,9 @@
             ],
             "semlist": {
                 "m": [
+                    "UN_SanPietro_2",
                     "UN_SanPietro_1",
-                    "UN_SanPietro_4",
-                    "UN_SanPietro_2"
+                    "UN_SanPietro_4"
                 ],
                 "a": []
             }
@@ -110,14 +110,12 @@
             ],
             "semlist": {
                 "m": [
+                    "UN_SanPietro_3",
                     "UN_SanPietro_1",
-                    "UN_SanPietro_4",
                     "UN_Tempio_1",
-                    "UN_SanPietro_3"
+                    "UN_SanPietro_4"
                 ],
-                "a": [
-                    "UN_Tempio_1"
-                ]
+                "a": []
             }
         },
         {
@@ -156,11 +154,15 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_SanPietro_1",
                     "UN_SanPietro_2",
+                    "UN_Tempio_1",
+                    "UN_SanPietro_1",
                     "UN_SanPietro_3"
                 ],
-                "a": []
+                "a": [
+                    "UN_Tempio_2",
+                    "UN_Tempio_3"
+                ]
             }
         },
         {
@@ -181,9 +183,7 @@
                     "UN_SanPietro_1",
                     "UN_Tempio_1"
                 ],
-                "a": [
-                    "UN_Tempio_1"
-                ]
+                "a": []
             }
         },
         {
@@ -203,9 +203,7 @@
                 "m": [
                     "UN_Tempio_1"
                 ],
-                "a": [
-                    "UN_Tempio_1"
-                ]
+                "a": []
             }
         },
         {
@@ -225,9 +223,7 @@
                 "m": [
                     "UN_Tempio_1"
                 ],
-                "a": [
-                    "UN_Tempio_1"
-                ]
+                "a": []
             }
         },
         {
@@ -245,14 +241,12 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_cisterna_2",
-                    "UN_Tempio_2",
                     "UN_cisterna_1",
-                    "UN_Tempio_1"
+                    "UN_Tempio_1",
+                    "UN_cisterna_2"
                 ],
                 "a": [
-                    "UN_Tempio_2",
-                    "UN_Tempio_1"
+                    "UN_Tempio_2"
                 ]
             }
         },
@@ -271,13 +265,11 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_cisterna_2",
                     "UN_cisterna_1",
-                    "UN_Tempio_1"
+                    "UN_Tempio_1",
+                    "UN_cisterna_2"
                 ],
-                "a": [
-                    "UN_Tempio_1"
-                ]
+                "a": []
             }
         },
         {
@@ -295,14 +287,12 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_cisterna_2",
-                    "UN_Tempio_2",
                     "UN_cisterna_1",
-                    "UN_Tempio_1"
+                    "UN_Tempio_1",
+                    "UN_cisterna_2"
                 ],
                 "a": [
-                    "UN_Tempio_2",
-                    "UN_Tempio_1"
+                    "UN_Tempio_2"
                 ]
             }
         }
@@ -354,6 +344,12 @@
             "title": "Il tetto del tempio",
             "descr": "L\u2019intero tetto del tempio, era interamente decorato con <b>coloratissime terrecotte architettoniche</b>. \n<br>Nel <b>Museo Archeologico Comunale di Segni</b> sono conservati alcuni esemplari di questi meravigliosi manufatti, sia appartenenti al tempio arcaico, sia pertinenti al pi\u00f9 grande tempio di II secolo a.C. \n<br>Ti invito a visitarlo dopo questo giro all\u2019aperto, caro viaggiatore se non l'hai gi\u00e0 fatto!",
             "cover": "Acropoli5.jpg",
+            "audio": ""
+        },
+        "UN_Tempio_3": {
+            "title": "Il tempio di Giunone Moneta",
+            "descr": "Descrizione tempio",
+            "cover": "vista 3D",
             "audio": ""
         }
     }
