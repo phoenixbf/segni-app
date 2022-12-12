@@ -77,6 +77,26 @@
     mix-blend-mode: multiply;
 }
 
+.appDialog {
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(255,255,255, 0.9);
+    box-shadow: inset 0px 0px 100px #fce4cf;
+
+    z-index: 100;
+
+    position: absolute;
+
+    margin: auto;
+}
+
+.appButtonProfile {
+    width: 250px;
+    background-color: rgba(12, 40, 64, 1.0) !important;
+    
+}
+
 .appLandingMapContainer {
 /*
     display: inline-block;

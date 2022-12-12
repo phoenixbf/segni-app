@@ -33,6 +33,7 @@ let loadConfig = (conf)=>{
     $.getJSON( "config/"+conf+"-"+lang+".json", ( data )=>{
         let shift = data.shift;
         let list = [];
+        let geostr = data.geoloc? data.geoloc[0]+","+data.geoloc[1] : "";
 
         let C = [0.0,0.0];
 
@@ -67,8 +68,14 @@ let loadConfig = (conf)=>{
         let marker = new ol.Feature({
             name: P.name,
             url: "c="+conf+"-"+lang + "&p="+idmain,
+            urlexp: "c="+conf+"-"+lang + "-exp&p="+idmain,
+            latlon: geostr,
             geometry: new ol.geom.Point( C ),
             label: data.title
+        });
+
+        marker.on("click", ()=>{
+            console.log("XXXX")
         });
 
         let iconStyle = new ol.style.Style({
@@ -155,10 +162,36 @@ let welcomeText = ()=>{
 
 };
 
+let popupMarker = (A)=>{
+    //$('#map').hide();
+    $('#menu').delay(300).fadeIn();
+
+    console.log(A)
+
+    let ht = "<h1>"+A.label+"</h1><br>";
+
+    if (A.latlon.length>2) ht += "<a class='atonBTN atonBTN-text' href='https://maps.google.com/?q="+A.latlon+"'><img src='res/icons/geoloc.png'>Portami Qui</a>";
+    
+    ht += "<br>";
+    ht += "<a class='atonBTN atonBTN-text appButtonProfile' href='explore.html?"+A.url+"'>Visita Standard</a>";
+    ht += "<a class='atonBTN atonBTN-text appButtonProfile' href='explore.html?"+A.urlexp+"'>Visita Approfondita</a>";
+
+    ht += "<br><br><a class='atonBTN atonBTN-text atonBTN-red' style='background-color:#bf7b37' onclick='showMap()'><img src='res/icons/prev.png'>Torna alla Mappa</a>";
+
+    $("#menu").html(ht);
+};
+
+let showMap = ()=>{
+    $('#menu').delay(300).fadeOut();
+    //$('#map').show();
+};
+
 window.onload = ()=>{
     welcomeText();
 
     loadConfigs();
+
+    $('#menu').click((e)=>{ e.stopPropagation(); });
 
     proj4.defs('EPSG:3004', "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +towgs84=-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68 +units=m +no_defs");
     //proj4.defs('EPSG:3004', "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +units=m +no_defs");
@@ -214,8 +247,10 @@ window.onload = ()=>{
         map.forEachFeatureAtPixel(evt.pixel, (feature)=>{
             let name = feature.A.name;
             let eurl = feature.A.url;
+            let xurl = feature.A.urlexp;
             
-            ATON.Utils.goToURL("explore.html?"+eurl);
+            //ATON.Utils.goToURL("explore.html?"+eurl);
+            popupMarker(feature.A);
             return name;
         });
     });

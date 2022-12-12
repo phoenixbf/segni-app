@@ -62,6 +62,25 @@ APP.init = ()=>{
     $("#idTopToolbar").append( APP.buildSlider("idSlider") );
     //ATON.FE.uiAddButtonDeviceOrientation("idTopToolbar");
 
+
+    APP._bDisplayOriOffs = false;
+    if (ATON.FE.urlParams.get('offs')) APP._bDisplayOriOffs = true;
+
+    if (APP._bDisplayOriOffs){
+        $("#idBottomToolbar").append( APP.buildOriOffset() );
+
+        $("#oriOffsSub").click(()=>{
+            if (!ATON.Nav._cDevOri) return;
+            ATON.Nav._cDevOri.alphaOffset -= 0.02;
+            $("#oriOffs").html(ATON.Nav._cDevOri.alphaOffset.toPrecision(3));
+        });
+        $("#oriOffsAdd").click(()=>{
+            if (!ATON.Nav._cDevOri) return;
+            ATON.Nav._cDevOri.alphaOffset += 0.02;
+            $("#oriOffs").html(ATON.Nav._cDevOri.alphaOffset.toPrecision(3));
+        });
+    }
+
     ATON.Nav.setFirstPersonControl();
     ATON.Nav.setFOV(APP.FOV_STD);
 
@@ -351,6 +370,14 @@ APP.setupEvents = ()=>{
         APP.popupWelcome();
     });
 
+    ATON.on("NavMode", n =>{
+        if (n === ATON.Nav.MODE_DEVORI){
+            if (APP.conf.orioffs) ATON.Nav._cDevOri.alphaOffset = APP.conf.orioffs;
+
+            if (APP._bDisplayOriOffs) $("#oriOffs").html(ATON.Nav._cDevOri.alphaOffset.toPrecision(3));
+        }
+    });
+
     ATON.on("AllNodeRequestsCompleted", ()=>{
         console.log("All nodes loaded");
         APP.filterSemantics();
@@ -472,6 +499,14 @@ APP.buildSlider = (id)=>{
     ht += "<input id='"+id+"' type='range' min='0' max='1' value='1' style='width:100px'>";
     ht += "&nbsp;Attuale";
     ht += "</div>";
+
+    return ht;
+};
+
+APP.buildOriOffset = ()=>{
+    let ht = "<div id='oriOffsSub' class='atonBTN'>-</div>";
+    ht += "<span id='oriOffs'>...</span>";
+    ht += "<div id='oriOffsAdd' class='atonBTN'>+</div>";
 
     return ht;
 };
