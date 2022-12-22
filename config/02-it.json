@@ -116,8 +116,8 @@
                 "m": [
                     "UN_SanPietro_1",
                     "UN_SanPietro_4",
-                    "UN_SanPietro_3",
-                    "UN_Tempio_1"
+                    "UN_Tempio_1",
+                    "UN_SanPietro_3"
                 ],
                 "a": []
             }
@@ -245,9 +245,9 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_cisterna_2",
+                    "UN_cisterna_1",
                     "UN_Tempio_1",
-                    "UN_cisterna_1"
+                    "UN_cisterna_2"
                 ],
                 "a": [
                     "UN_Tempio_2"
@@ -269,9 +269,9 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_cisterna_2",
+                    "UN_cisterna_1",
                     "UN_Tempio_1",
-                    "UN_cisterna_1"
+                    "UN_cisterna_2"
                 ],
                 "a": []
             }
@@ -291,13 +291,85 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_cisterna_2",
+                    "UN_cisterna_1",
                     "UN_Tempio_1",
-                    "UN_cisterna_1"
+                    "UN_cisterna_2"
                 ],
                 "a": [
                     "UN_Tempio_2"
                 ]
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_20",
+            "title": "All'ingresso della chiesa",
+            "pos": [
+                134.79893493652344,
+                671.0252075195312,
+                -516.6318969726562
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_21",
+            "title": "Di fronte all'altare",
+            "pos": [
+                131.3752899169922,
+                671.0068969726562,
+                -524.9027709960938
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_22",
+            "title": "Chiesa lato destro",
+            "pos": [
+                135.08570861816406,
+                671.1397094726562,
+                -522.2197875976562
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_23",
+            "title": "Chiesa lato sinistro",
+            "pos": [
+                132.1624755859375,
+                670.959716796875,
+                -519.7171630859375
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [],
+                "a": []
             }
         }
     ],
