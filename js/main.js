@@ -44,6 +44,8 @@ APP.init = ()=>{
     // Realize the base front-end
     ATON.FE.realize();
 
+    ATON.FE.addBasicLoaderEvents();
+
     // Our events
     APP.setupEvents();
 
@@ -134,8 +136,6 @@ APP.init = ()=>{
         let p = path + rf + APP.currperiod + ".jpg";
         return p;
     });
-
-    ATON.FE.addBasicLoaderEvents();
 };
 
 APP.switchToPeriod = (pname)=>{
@@ -382,25 +382,32 @@ APP.setupEvents = ()=>{
         console.log("All nodes loaded");
         APP.filterSemantics();
     });
-/*
-    ATON.on("SemanticNodeLeave", (semid)=>{
-        let S = ATON.getSemanticNode(semid);
-        if (S) S.restoreDefaultMaterial();
 
-        //$("#idPanel").hide();
+    //ATON.EventHub.clearEventHandlers("SemanticNodeHover");
+    //ATON.EventHub.clearEventHandlers("SemanticNodeLeave");
 
-        //console.log(semid);
-    });
     ATON.on("SemanticNodeHover", (semid)=>{
-        let S = ATON.getSemanticNode(semid);
-        if (S) S.highlight();
+        let s = APP.conf.sem[semid];
+        if (s === undefined) return;
+
+        if (s.title) $("#idPopupLabel").html(s.title);
 
         //if (APP._bShowingPanel) return;
         //APP.updatePanel(semid);
 
         //console.log(semid);
     });
+/*
+    ATON.on("SemanticNodeLeave", (semid)=>{
+        //let S = ATON.getSemanticNode(semid);
+        //if (S) S.restoreDefaultMaterial();
+
+        //$("#idPanel").hide();
+
+        //console.log(semid);
+    });
 */
+
     ATON.on("Tap", (e)=>{
         if (ATON._bPauseQuery) return;
 
