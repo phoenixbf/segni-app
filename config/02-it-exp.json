@@ -29,8 +29,8 @@
             "semlist": {
                 "m": [
                     "UN_SanPietro_1",
-                    "UN_SanPietro_2",
                     "UN_Tempio_5",
+                    "UN_SanPietro_2",
                     "UN_SanPietro_0"
                 ],
                 "a": []
@@ -51,11 +51,11 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_SanPietro_1",
-                    "UN_SanPietro_2",
                     "UN_Tempio_5",
-                    "UN_SanPietro_4",
-                    "UN_SanPietro_0"
+                    "UN_SanPietro_2",
+                    "UN_SanPietro_0",
+                    "UN_SanPietro_1",
+                    "UN_SanPietro_4"
                 ],
                 "a": []
             }
@@ -97,8 +97,8 @@
             "semlist": {
                 "m": [
                     "UN_SanPietro_1",
-                    "UN_SanPietro_2",
                     "UN_Tempio_5",
+                    "UN_SanPietro_2",
                     "UN_SanPietro_4"
                 ],
                 "a": []
@@ -119,11 +119,11 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_SanPietro_1",
                     "UN_Tempio_5",
+                    "UN_SanPietro_3",
                     "UN_Tempio_1",
-                    "UN_SanPietro_4",
-                    "UN_SanPietro_3"
+                    "UN_SanPietro_1",
+                    "UN_SanPietro_4"
                 ],
                 "a": []
             }
@@ -165,15 +165,15 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_SanPietro_1",
                     "UN_Tempio_5",
                     "UN_SanPietro_2",
                     "UN_SanPietro_3",
-                    "UN_Tempio_1"
+                    "UN_Tempio_1",
+                    "UN_SanPietro_1"
                 ],
                 "a": [
-                    "UN_Tempio_3",
-                    "UN_Tempio_2"
+                    "UN_Tempio_2",
+                    "UN_Tempio_3"
                 ]
             }
         },
@@ -192,9 +192,9 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_SanPietro_1",
+                    "UN_Tempio_1",
                     "UN_Tempio_5",
-                    "UN_Tempio_1"
+                    "UN_SanPietro_1"
                 ],
                 "a": []
             }
@@ -254,10 +254,10 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_cisterna_3",
                     "UN_cisterna_1",
                     "UN_Tempio_1",
-                    "UN_cisterna_2"
+                    "UN_cisterna_2",
+                    "UN_cisterna_3"
                 ],
                 "a": [
                     "UN_Tempio_2"
@@ -279,10 +279,10 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_cisterna_3",
                     "UN_cisterna_1",
                     "UN_Tempio_1",
-                    "UN_cisterna_2"
+                    "UN_cisterna_2",
+                    "UN_cisterna_3"
                 ],
                 "a": []
             }
@@ -302,10 +302,10 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_cisterna_3",
                     "UN_cisterna_1",
                     "UN_Tempio_1",
-                    "UN_cisterna_2"
+                    "UN_cisterna_2",
+                    "UN_cisterna_3"
                 ],
                 "a": [
                     "UN_Tempio_2"
@@ -381,6 +381,26 @@
             ],
             "semlist": {
                 "m": [],
+                "a": []
+            }
+        },
+        {
+            "name": "Acropoli_SPietro_30",
+            "title": "Pannello",
+            "pos": [
+                138.53158569335938,
+                667.9805908203125,
+                -494.0495910644531
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [
+                    "UN_Tempio_5"
+                ],
                 "a": []
             }
         }

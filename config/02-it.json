@@ -349,6 +349,24 @@
             }
         },
         {
+            "name": "Acropoli_SPietro_22",
+            "title": "Chiesa lato destro",
+            "pos": [
+                135.08570861816406,
+                671.1397094726562,
+                -522.2197875976562
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [],
+                "a": []
+            }
+        },
+        {
             "name": "Acropoli_SPietro_23",
             "title": "Chiesa lato sinistro",
             "pos": [
