@@ -77,15 +77,15 @@
     "sem": {
         "UN_murapoligonali_1": {
             "title": "Una doppia cortina",
-            "descr": "I blocchi per la costruzione delle mura erano ricavati dalla <b>roccia in prossimit\u00e0</b> della linea stessa delle mura. ",
+            "descr": "I blocchi per la costruzione delle mura erano ricavati dalla <b>roccia in prossimit\u00e0</b> della linea stessa delle mura. \n<br>I blocchi venivano montati e lisciati direttamente sul piano di posa, <b>senza l\u2019utilizzo di malta</b>. \n<br>Le mura di Segni mostrano una <b>doppia cortina</b>: una esterna formata da blocchi perfettamente lisciati, per non offrire appigli a eventuali nemici, e una interna, con blocchi meno rifiniti e che poggiano su un terrapieno di spalla.",
             "cover": "Porta1.jpg",
-            "audio": "un_it testo 26.m4a"
+            "audio": "un_it-exp testo 27.m4a"
         },
         "UN_murapoligonali_2": {
             "title": "Le porte delle mura",
-            "descr": "Nella cinta muraria si aprono <b>numerose porte di diversa grandezza</b>, poste a servizio delle strade cittadine. \n<br>La pi\u00f9 famosa tra gli ingressi principali alla citt\u00e0 antica \u00e8 Porta Saracena, posta nel <b>versante occidentale delle mura</b>. \n<br>L\u2019hai gi\u00e0 visitata, caro viaggiatore? \n<br> Ti consiglio di fare una passeggiata partendo da Via Marconi e scendendo lungo il tratto con gli scalini, se ancora non ci sei stato!\n<br>Noterai sicuramente la sua caratteristica forma ad <b>ogiva tronca</b>, che l\u2019ha resa tra le pi\u00f9 raffigurate dai viaggiatori e studiosi che fin dai primi anni dell\u2019Ottocento erano intenti a studiare l\u2019opera poligonale.",
+            "descr": "La fitta rete viaria che collegava la citt\u00e0 al territorio ha imposto l'apertura di <b>numerose porte di diversa grandezza</b> nella cinta muraria. Alcune di queste porte sono ancora ben conservate e accessibili. \n<br>La pi\u00f9 famosa tra gli ingressi principali alla citt\u00e0 antica \u00e8 Porta Saracena, posta nel <b>versante occidentale delle mura</b>. \n<br>L\u2019hai gi\u00e0 visitata, caro viaggiatore? \n<br> Ti consiglio di fare una passeggiata partendo da Via Marconi e scendendo lungo il tratto con gli scalini, se ancora non ci sei stato!\n<br>Noterai sicuramente la sua caratteristica forma ad <b>ogiva tronca</b>, che l\u2019ha resa tra le pi\u00f9 raffigurate dai viaggiatori e studiosi che fin dai primi anni dell\u2019Ottocento erano intenti a studiare l\u2019opera poligonale.",
             "cover": "Porta2.jpg",
-            "audio": "un_it testo 27.m4a"
+            "audio": "un_it-exp testo 28.m4a"
         }
     }
 }
