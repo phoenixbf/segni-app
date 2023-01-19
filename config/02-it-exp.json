@@ -8,6 +8,7 @@
         41.69668960571289,
         13.024754524230957
     ],
+    "orioffset": -0.27911099791526794,
     "title": "Area dell'Acropoli",
     "descr": "L\u2019area dell\u2019antica acropoli dove ti trovi adesso, caro viaggiatore, situata sulla sommit\u00e0 del monte, riuniva in un unico organismo architettonico almeno tre elementi di grande rilievo per la citt\u00e0 antica: il tempio, dedicato alla dea protettrice della citt\u00e0, Giunone Moneta, con la sua piazza antistante; il grande bacino circolare posto alle sue spalle e la piccola terrazza terminale, destinata ad ospitare un qualche edificio ormai perduto.",
     "main": 0,
@@ -29,9 +30,9 @@
             "semlist": {
                 "m": [
                     "UN_SanPietro_1",
-                    "UN_Tempio_5",
+                    "UN_SanPietro_0",
                     "UN_SanPietro_2",
-                    "UN_SanPietro_0"
+                    "UN_Tempio_5"
                 ],
                 "a": []
             }
@@ -51,11 +52,11 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_Tempio_5",
-                    "UN_SanPietro_2",
                     "UN_SanPietro_0",
+                    "UN_SanPietro_2",
+                    "UN_SanPietro_4",
                     "UN_SanPietro_1",
-                    "UN_SanPietro_4"
+                    "UN_Tempio_5"
                 ],
                 "a": []
             }
@@ -97,8 +98,8 @@
             "semlist": {
                 "m": [
                     "UN_SanPietro_1",
-                    "UN_Tempio_5",
                     "UN_SanPietro_2",
+                    "UN_Tempio_5",
                     "UN_SanPietro_4"
                 ],
                 "a": []
@@ -119,13 +120,14 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_Tempio_5",
-                    "UN_SanPietro_3",
-                    "UN_Tempio_1",
                     "UN_SanPietro_1",
+                    "UN_SanPietro_3",
+                    "UN_Tempio_5",
                     "UN_SanPietro_4"
                 ],
-                "a": []
+                "a": [
+                    "UN_Tempio_1"
+                ]
             }
         },
         {
@@ -144,8 +146,8 @@
             "semlist": {
                 "m": [
                     "UN_SanPietro_1",
-                    "UN_Tempio_5",
-                    "UN_SanPietro_3"
+                    "UN_SanPietro_3",
+                    "UN_Tempio_5"
                 ],
                 "a": []
             }
@@ -165,14 +167,14 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_Tempio_5",
-                    "UN_SanPietro_2",
+                    "UN_SanPietro_1",
                     "UN_SanPietro_3",
-                    "UN_Tempio_1",
-                    "UN_SanPietro_1"
+                    "UN_Tempio_5",
+                    "UN_SanPietro_2"
                 ],
                 "a": [
                     "UN_Tempio_2",
+                    "UN_Tempio_1",
                     "UN_Tempio_3"
                 ]
             }
@@ -192,11 +194,12 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_Tempio_1",
-                    "UN_Tempio_5",
-                    "UN_SanPietro_1"
+                    "UN_SanPietro_1",
+                    "UN_Tempio_5"
                 ],
-                "a": []
+                "a": [
+                    "UN_Tempio_1"
+                ]
             }
         },
         {
@@ -213,10 +216,10 @@
                 0.0
             ],
             "semlist": {
-                "m": [
+                "m": [],
+                "a": [
                     "UN_Tempio_1"
-                ],
-                "a": []
+                ]
             }
         },
         {
@@ -233,10 +236,10 @@
                 0.0
             ],
             "semlist": {
-                "m": [
+                "m": [],
+                "a": [
                     "UN_Tempio_1"
-                ],
-                "a": []
+                ]
             }
         },
         {
@@ -254,12 +257,12 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_cisterna_1",
-                    "UN_Tempio_1",
                     "UN_cisterna_2",
-                    "UN_cisterna_3"
+                    "UN_cisterna_3",
+                    "UN_cisterna_1"
                 ],
                 "a": [
+                    "UN_Tempio_1",
                     "UN_Tempio_2"
                 ]
             }
@@ -279,12 +282,13 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_cisterna_1",
-                    "UN_Tempio_1",
                     "UN_cisterna_2",
-                    "UN_cisterna_3"
+                    "UN_cisterna_3",
+                    "UN_cisterna_1"
                 ],
-                "a": []
+                "a": [
+                    "UN_Tempio_1"
+                ]
             }
         },
         {
@@ -302,12 +306,12 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_cisterna_1",
-                    "UN_Tempio_1",
                     "UN_cisterna_2",
-                    "UN_cisterna_3"
+                    "UN_cisterna_3",
+                    "UN_cisterna_1"
                 ],
                 "a": [
+                    "UN_Tempio_1",
                     "UN_Tempio_2"
                 ]
             }
