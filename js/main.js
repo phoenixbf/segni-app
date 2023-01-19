@@ -372,7 +372,7 @@ APP.setupEvents = ()=>{
 
     ATON.on("NavMode", n =>{
         if (n === ATON.Nav.MODE_DEVORI){
-            if (APP.conf.orioffs) ATON.Nav._cDevOri.alphaOffset = APP.conf.orioffs;
+            if (APP.conf.orioffset) ATON.Nav._cDevOri.alphaOffset = parseFloat(APP.conf.orioffset);
 
             if (APP._bDisplayOriOffs) $("#oriOffs").html(ATON.Nav._cDevOri.alphaOffset.toPrecision(3));
         }
