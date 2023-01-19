@@ -8,9 +8,10 @@
         41.69795227050781,
         13.017122268676758
     ],
+    "orioffset": 1.5700000524520874,
     "title": "Area di Porta Saracena",
     "descr": "Le mura dell\u2019antica citt\u00e0 di Segni sono state realizzate in opera poligonale di calcare e ancora oggi il circuito murario \u00e8 quasi interamente conservato e visitabile per tutta la sua estensione. Caro viaggiatore, lo sai che puoi percorrere circa 5 Km? Le mura furono realizzate tra la fine del VI e il V secolo a.C. con la loro maestosa imponenza, questa struttura difensiva mostra l\u2019abilit\u00e0 dei costruttori dell\u2019epoca.",
-    "main": 0,
+    "main": 4,
     "icon": "area-portasaracena.png",
     "network": [
         {
