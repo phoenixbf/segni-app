@@ -62,13 +62,13 @@
             "title": "Il palazzo del Comune",
             "descr": "Il palazzo che scorgi dalla piazza della Cattedrale, caro viaggiatore, fu costruito verso la <b>met\u00e0 del XIII secolo</b> e fu la <b>sede del Comune</b> fino al 1876. Dal 2001 ospita il <b>Museo Archeologico Comunale di Segni</b>. \n<br>All\u2019interno il percorso espositivo del Museo \u00e8 articolato in <b>sezioni topografiche</b>, che aiutano nella comprensione e alla visita del Parco Archeologico Urbano \u201cSegni Citt\u00e0-Museo\u201d. \n<br>Sei il benvenuto, entra pure!",
             "cover": "museo1.jpg",
-            "audio": "un_it testo 6.m4a"
+            "audio": "un_it-exp testo 6.m4a"
         },
         "UN_Museo_2": {
             "title": "La costruzione del palazzo",
-            "descr": "Nella sua fase originaria l\u2019edificio doveva essere costituito da un <b>portico al piano terreno</b>.\n<br> Al <b>secondo piano si apriva una loggia</b> con ampi finestroni ad arco acuto in blocchetti di tufo.\n<br> Al <b>terzo piano<b> probabilmente vi era una <b>seconda loggia</b>, pi\u00f9 piccola.",
+            "descr": "Nella sua fase originaria l\u2019edificio doveva essere costituito da un <b>portico al piano terreno</b> con una serie di arcate a tutto sesto, che alternavano blocchetti di calcare a quelli di tufo dando un <b>effetto bicromo</b> molto vivace.\n<br> Al <b>secondo piano si apriva una loggia</b> con ampi finestroni ad arco acuto in blocchetti di tufo.\n<br> Al <b>terzo piano<b> probabilmente vi era una <b>seconda loggia</b>, pi\u00f9 piccola.",
             "cover": "museo2.jpg",
-            "audio": "un_it testo 7.m4a"
+            "audio": "un_it-exp testo 7.m4a"
         }
     }
 }
