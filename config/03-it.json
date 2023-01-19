@@ -14,12 +14,12 @@
     "icon": "area-portasaracena.png",
     "network": [
         {
-            "name": "Porta_08",
-            "title": "Pennello",
+            "name": "Porta_01",
+            "title": "Esterno delle mura",
             "pos": [
-                -490.859375,
-                581.8375854492188,
-                -651.2797241210938
+                -518.8472900390625,
+                580.4085693359375,
+                -665.8753662109375
             ],
             "rot": [
                 0.0,
@@ -28,7 +28,92 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_murapoligonali_2"
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_1"
+                ],
+                "a": []
+            }
+        },
+        {
+            "name": "Porta_02",
+            "title": "Porta Saracena",
+            "pos": [
+                -521.2083129882812,
+                579.3671875,
+                -659.5982055664062
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_1"
+                ],
+                "a": []
+            }
+        },
+        {
+            "name": "Porta_06",
+            "title": "Dentro le mura",
+            "pos": [
+                -511.0252380371094,
+                578.1634521484375,
+                -647.177001953125
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_3",
+                    "UN_murapoligonali_4"
+                ],
+                "a": []
+            }
+        },
+        {
+            "name": "Porta_04",
+            "title": "Dentro la porta",
+            "pos": [
+                -513.7098999023438,
+                579.3951416015625,
+                -655.6880493164062
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_1"
+                ],
+                "a": []
+            }
+        },
+        {
+            "name": "Porta_08",
+            "title": "Pannello",
+            "pos": [
+                -491.6714782714844,
+                583.252197265625,
+                -647.9913940429688
+            ],
+            "rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "semlist": {
+                "m": [
+                    "UN_murapoligonali_3"
                 ],
                 "a": []
             }
@@ -48,7 +133,9 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_murapoligonali_2"
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_3",
+                    "UN_murapoligonali_4"
                 ],
                 "a": []
             }
@@ -68,7 +155,8 @@
             ],
             "semlist": {
                 "m": [
-                    "UN_murapoligonali_2"
+                    "UN_murapoligonali_2",
+                    "UN_murapoligonali_3"
                 ],
                 "a": []
             }
@@ -86,6 +174,18 @@
             "descr": "Nella cinta muraria si aprono <b>numerose porte di diversa grandezza</b>, poste a servizio delle strade cittadine. \n<br>La pi\u00f9 famosa tra gli ingressi principali alla citt\u00e0 antica \u00e8 Porta Saracena, posta nel <b>versante occidentale delle mura</b>. \n<br>L\u2019hai gi\u00e0 visitata, caro viaggiatore? \n<br> Ti consiglio di fare una passeggiata partendo da Via Marconi e scendendo lungo il tratto con gli scalini, se ancora non ci sei stato!\n<br>Noterai sicuramente la sua caratteristica forma ad <b>ogiva tronca</b>, che l\u2019ha resa tra le pi\u00f9 raffigurate dai viaggiatori e studiosi che fin dai primi anni dell\u2019Ottocento erano intenti a studiare l\u2019opera poligonale.",
             "cover": "Porta2.jpg",
             "audio": "un_it testo 27.m4a"
+        },
+        "UN_murapoligonali_3": {
+            "title": "L'architettura delle porte",
+            "descr": "Gli accessi principali alla citt\u00e0 si aprono tutti - secondo uno schema caratteristico - nel breve tratto trasversale di un <b>dente formato dalla linea delle mura</b>. <br> I fianchi delle porte sono formati da due o tre filari di blocchi che servono a <b>contenere il terreno permettendo il passaggio della strada</b>.",
+            "cover": "Porta3.jpg",
+            "audio": "un_it testo 28.m4a"
+        },
+        "UN_murapoligonali_4": {
+            "title": "La difesa delle porte",
+            "descr": "In un circuito murario le porte costituivano dei <b>punti di debolezza</b> e dovevano per questo prevedere dei <b>particolari accorgimenti difensivi</b>",
+            "cover": "Porta4.jpg",
+            "audio": "un_it testo 29.m4a"
         }
     }
 }
