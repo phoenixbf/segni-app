@@ -158,27 +158,27 @@
     "sem": {
         "UN_Lauri_1": {
             "title": "Un portico coperto",
-            "descr": "Il criptoportico, edificato in una bellissima <b>opera reticolata di calcare</b>, si sviluppava in due bracci, suddivisi in due navate parallele da una serie di arcate centrali sorrette da pilastri in tufo. \n<br>Tutto il complesso strutturale creava un vasto spazio pubblico <b>vicinissimo all'antico Foro</b>, cos\u00ec da poter accogliere alcune delle attivit\u00e0 per le quali la vecchia piazza era forse divenuta insufficiente.",
+            "descr": "Il criptoportico \u00e8 stato edificato nel tardo I secolo a. C. in una bellissima <b>opera reticolata di calcare</b> e si sviluppava in due bracci, suddivisi in due navate parallele da una serie di arcate centrali sorrette da pilastri in tufo. \n<br>Tutto il complesso strutturale creava un vasto spazio pubblico <b>vicinissimo all'antico Foro</b>, cos\u00ec da poter accogliere alcune delle attivit\u00e0 per le quali la vecchia piazza era forse divenuta insufficiente.",
             "cover": "epigrafia0.jpg",
-            "audio": "un_it testo 8.m4a"
+            "audio": "un_it-exp testo 8.m4a"
         },
         "UN_Lauri_2": {
             "title": "Epigrafi",
-            "descr": "All\u2019interno di uno dei palazzi attualmente abitati della citt\u00e0, in corrispondenza con il <b>tratto finale del criptoportico</b>, appartenente alla nota <b>famiglia Lauri</b>, da cui prende il nome l\u2019attuale strada, sono murate alcune <b>iscrizioni</b>. \n<br>Le puoi scorgere, caro viaggiatore, entrando nel <b>portone del palazzo al civico 51</b>. ",
+            "descr": "All\u2019interno di uno dei palazzi attualmente abitati della citt\u00e0, in corrispondenza del <b>tratto finale del criptoportico</b>, appartenente alla nota <b>famiglia Lauri</b>, da cui prende il nome l\u2019attuale strada, sono murate alcune <b>iscrizioni</b>. \n<br>Le puoi scorgere, caro viaggiatore, entrando nel <b>portone del palazzo al civico 51</b>. \n<br>Le iscrizioni furono rinvenute e conservate in questo luogo da <b>Ottavio Lauri</b>, appassionato di antichit\u00e0 e di epigrafia e vissuto tra il XVI e il XVII secolo. ",
             "cover": "epigrafia1.JPG",
-            "audio": "un_it testo 9.m4a"
+            "audio": "un_it-exp testo 9.m4a"
         },
         "UN_Lauri_3": {
             "title": "I lavori per la Cattedrale",
-            "descr": "Tra queste iscrizioni, oltre quella commemorativa della costruzione del criptoportico, vi sono <b>due epigrafi funerarie e una commemorativa</b>",
+            "descr": "Tra queste iscrizioni, oltre quella commemorativa della costruzione del criptoportico, vi sono <b>due epigrafi funerarie e una commemorativa</b>, rinvenuta durante i lavori di costruzione della Cattedrale del centro citt\u00e0, nella prima met\u00e0 del 1600. \n<br> I lavori furono avviati da <b>Giovanni Battista Lauri</b>, che era il figlio di Ottavio Lauri, che conserv\u00f2 le epigrafi nel palazzo, e allora Sindaco della citt\u00e0. ",
             "cover": "epigrafia2.JPG",
-            "audio": "un_it testo 10.m4a"
+            "audio": "un_it-exp testo 10.m4a"
         },
         "UN_Lauri_4": {
             "title": "La famiglia dei Volumnii",
-            "descr": "Il criptoportico fu realizzato per la citt\u00e0 da <b>due magistrati</b> locali della nota famiglia dei Volumnii come descritto nell\u2019epigrafe commemorativa che hai visto poco fa",
+            "descr": "Il criptoportico fu realizzato per la citt\u00e0 da <b>due magistrati</b> locali della nota famiglia dei Volumnii. \n<br>Nell\u2019epigrafe commemorativa che hai visto poco fa, caro viaggiatore, si legge infatti che <b>C. Volumnius e Q. Volumnius</b>, che all\u2019epoca ricoprivano la carica di quattuorviri, una sorta di magistrati nell\u2019antica Roma, <b>regalarono a proprie spese</b> questa magnifica costruzione, che doveva avere nelle vicinanze anche dei giardini. ",
             "cover": "epigrafia3.JPG",
-            "audio": "un_it testo 11.m4a"
+            "audio": "un_it-exp testo 11.m4a"
         }
     }
 }
